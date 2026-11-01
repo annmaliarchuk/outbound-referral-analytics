@@ -1,0 +1,991 @@
+discharge_id,facility_id,resident_id,payer_type,discharge_plan,services_needed,planning_started_at,original_planned_date,current_discharge_date,status,date_changes,slip_days,primary_delay_reason,all_services_placed,returned_within_30d
+D00001,F01,R00001,Medicare Advantage,Home with home health,Home Health; DME,2026-10-12 10:09:00,2026-10-16,2026-10-16,Discharged,0,0,,True,False
+D00002,F01,R00002,Medicare Part A,Home with DME only,DME,2026-10-14 12:39:00,2026-10-16,2026-10-16,Discharged,0,0,,True,False
+D00003,F01,R00003,Medicare Part A,"Home, outpatient dialysis",Dialysis; Home Health,2026-10-13 14:23:00,2026-10-17,2026-10-17,Discharged,0,0,,True,False
+D00004,F01,R00004,Medicare Part A,Home with home health,Home Health,2026-10-13 14:29:00,2026-10-19,2026-10-19,Discharged,0,0,,True,False
+D00005,F01,R00005,Medicare Part A,Home with hospice,Hospice,2026-10-15 13:23:00,2026-10-20,2026-10-20,Discharged,0,0,,True,False
+D00006,F01,R00006,Medicare Part A,Home with DME only,DME,2026-10-19 08:00:00,2026-10-21,2026-10-21,Discharged,0,0,,True,False
+D00007,F01,R00007,Medicaid,Home with hospice,Hospice,2026-10-21 14:35:00,2026-10-23,2026-10-23,Discharged,0,0,,True,False
+D00008,F01,R00008,Medicare Advantage,Home with DME only,DME,2026-10-19 08:00:00,2026-10-23,2026-10-23,Discharged,0,0,,True,False
+D00009,F01,R00009,Medicare Advantage,Home with DME only,DME,2026-10-22 09:32:00,2026-10-23,2026-10-27,Discharged,1,4,Awaiting partner acceptance,True,True
+D00010,F01,R00010,Medicare Part A,Home with home health,Home Health,2026-10-19 08:00:00,2026-10-23,2026-10-23,Discharged,0,0,,True,False
+D00011,F01,R00011,Medicare Part A,Home with home health,Home Health; DME,2026-10-20 09:59:00,2026-10-26,2026-10-26,Discharged,0,0,,True,False
+D00012,F01,R00012,Medicaid,Home with home health,Home Health,2026-10-23 15:39:00,2026-10-27,2026-10-30,Discharged,1,3,Payer authorization pending,True,True
+D00013,F01,R00013,Medicaid,Assisted living with home health,Home Health,2026-10-26 08:00:00,2026-10-27,2026-10-27,Cancelled (hospital transfer),0,,,True,
+D00014,F01,R00014,Commercial / other,Assisted living with home health,Home Health,2026-10-23 15:17:00,2026-10-28,2026-10-28,Discharged,0,0,,True,True
+D00015,F01,R00015,Medicaid,"Home, outpatient dialysis",Dialysis,2026-10-26 08:00:00,2026-10-29,2026-10-29,Discharged,0,0,,True,False
+D00016,F01,R00016,Medicare Part A,Home with home health,Home Health,2026-10-26 08:00:00,2026-10-29,2026-10-29,Discharged,0,0,,True,False
+D00017,F01,R00017,Medicare Advantage,Home with hospice,Hospice; DME,2026-10-26 13:46:00,2026-10-30,2026-10-30,Discharged,0,0,,True,False
+D00018,F01,R00018,Medicare Part A,Transfer to long-term care,Skilled Nursing,2026-10-26 10:59:00,2026-10-30,2026-10-31,Discharged,1,1,Awaiting partner acceptance,True,
+D00019,F01,R00019,Medicare Part A,Home with DME only,DME,2026-11-02 08:00:00,2026-11-04,2026-11-06,Discharged,1,2,Resident / family not ready,True,False
+D00020,F01,R00020,Medicare Part A,Assisted living with home health,Home Health,2026-11-04 09:50:00,2026-11-05,2026-11-06,Discharged,1,1,Awaiting partner acceptance,True,False
+D00021,F01,R00021,Medicare Part A,Home with DME only,DME,2026-11-02 08:00:00,2026-11-06,2026-11-09,Discharged,1,3,Clinical status change,True,False
+D00022,F01,R00022,Medicare Part A,Home with home health,Home Health,2026-11-03 13:09:00,2026-11-06,2026-11-06,Discharged,0,0,,True,False
+D00023,F01,R00023,Medicare Part A,Home with home health,Home Health; DME,2026-11-02 08:25:00,2026-11-06,2026-11-06,Discharged,0,0,,True,False
+D00024,F01,R00024,Medicare Part A,Home with home health,Home Health; DME,2026-11-03 11:56:00,2026-11-08,2026-11-08,Discharged,0,0,,True,False
+D00025,F01,R00025,Commercial / other,"Home, outpatient dialysis",Dialysis,2026-11-04 13:57:00,2026-11-09,2026-11-09,Discharged,0,0,,True,False
+D00026,F01,R00026,Medicare Part A,Assisted living with home health,Home Health,2026-11-05 08:41:00,2026-11-09,2026-11-09,Discharged,0,0,,True,False
+D00027,F01,R00027,Medicare Advantage,Assisted living with home health,Home Health,2026-11-03 09:43:00,2026-11-09,2026-11-12,Discharged,1,3,Payer authorization pending,True,False
+D00028,F01,R00028,Medicare Part A,Transfer to long-term care,Skilled Nursing,2026-11-09 08:00:00,2026-11-10,2026-11-13,Discharged,1,3,Awaiting partner acceptance,True,
+D00029,F01,R00029,Commercial / other,Home with hospice,Hospice,2026-11-09 08:00:00,2026-11-11,2026-11-13,Discharged,1,2,Payer authorization pending,True,False
+D00030,F01,R00030,Medicare Advantage,Home with hospice,Hospice; DME,2026-11-05 12:57:00,2026-11-11,2026-11-12,Discharged,1,1,Clinical status change,True,False
+D00031,F01,R00031,Medicare Part A,Home with DME only,DME,2026-11-09 08:00:00,2026-11-11,2026-11-13,Discharged,1,2,Payer authorization pending,True,False
+D00032,F01,R00032,Medicaid,Home with home health,Home Health,2026-11-09 08:00:00,2026-11-11,2026-11-11,Discharged,0,0,,True,False
+D00033,F01,R00033,Medicare Advantage,Assisted living with home health,Home Health,2026-11-09 08:00:00,2026-11-12,2026-11-12,Discharged,0,0,,True,False
+D00034,F01,R00034,Commercial / other,Home with DME only,DME,2026-11-09 11:57:00,2026-11-13,2026-11-13,Discharged,0,0,,True,False
+D00035,F01,R00035,Medicare Advantage,Transfer to long-term care,Skilled Nursing,2026-11-10 12:47:00,2026-11-13,2026-11-14,Discharged,1,1,Awaiting partner acceptance,True,
+D00036,F01,R00036,Medicare Advantage,Home with DME only,DME,2026-11-09 09:24:00,2026-11-13,2026-11-13,Discharged,0,0,,True,False
+D00037,F01,R00037,Medicare Part A,Home with DME only,DME,2026-11-10 13:05:00,2026-11-15,2026-11-15,Discharged,0,0,,True,False
+D00038,F01,R00038,Medicaid,Home with DME only,DME,2026-11-10 08:10:00,2026-11-15,2026-11-15,Cancelled (hospital transfer),0,,,True,
+D00039,F01,R00039,Medicare Advantage,Home with DME only,DME,2026-11-11 10:51:00,2026-11-16,2026-11-17,Discharged,1,1,Payer authorization pending,True,False
+D00040,F01,R00040,Medicare Part A,Home with home health,Home Health,2026-11-12 09:32:00,2026-11-16,2026-11-16,Discharged,0,0,,True,False
+D00041,F01,R00041,Medicare Advantage,Home with DME only,DME,2026-11-12 09:03:00,2026-11-17,2026-11-17,Discharged,0,0,,True,False
+D00042,F01,R00042,Medicare Part A,Transfer to long-term care,Skilled Nursing,2026-11-16 08:00:00,2026-11-17,2026-11-20,Discharged,1,3,Awaiting partner acceptance,True,
+D00043,F01,R00043,Commercial / other,Home with home health,Home Health,2026-11-16 08:00:00,2026-11-17,2026-11-17,Discharged,0,0,,True,False
+D00044,F01,R00044,Medicare Part A,Home with home health,Home Health; DME,2026-11-13 08:41:00,2026-11-17,2026-11-19,Discharged,2,2,Awaiting partner acceptance,True,False
+D00045,F01,R00045,Medicare Part A,Home with hospice,Hospice; DME,2026-11-16 08:00:00,2026-11-18,2026-11-18,Discharged,0,0,,True,False
+D00046,F01,R00046,Medicare Advantage,Home with hospice,Hospice; DME,2026-11-13 09:13:00,2026-11-18,2026-11-18,Discharged,0,0,,True,False
+D00047,F01,R00047,Commercial / other,Home with home health,Home Health,2026-11-16 08:00:00,2026-11-19,2026-11-19,Discharged,0,0,,True,False
+D00048,F01,R00048,Medicare Part A,Home with home health,Home Health; DME,2026-11-16 09:23:00,2026-11-20,2026-11-20,Discharged,0,0,,True,False
+D00049,F01,R00049,Medicare Part A,Home with hospice,Hospice; DME,2026-11-19 15:53:00,2026-11-20,2026-11-23,Discharged,1,3,Awaiting partner acceptance,True,False
+D00050,F01,R00050,Medicaid,Home with home health,Home Health,2026-11-16 14:52:00,2026-11-21,2026-11-21,Discharged,0,0,,True,True
+D00051,F01,R00051,Medicare Advantage,Transfer to long-term care,Skilled Nursing,2026-11-17 15:33:00,2026-11-21,2026-11-21,Discharged,0,0,,True,
+D00052,F01,R00052,Medicaid,Assisted living with home health,Home Health,2026-11-23 08:00:00,2026-11-23,2026-12-04,Discharged,1,11,No partner accepted,False,False
+D00053,F01,R00053,Medicare Advantage,Home with home health,Home Health,2026-11-17 13:04:00,2026-11-23,2026-11-27,Discharged,2,4,Resident / family not ready,True,False
+D00054,F01,R00054,Medicare Part A,Home with home health,Home Health; DME,2026-11-18 09:27:00,2026-11-24,2026-11-24,Discharged,0,0,,True,False
+D00055,F01,R00055,Medicare Part A,Home with DME only,DME,2026-11-20 10:21:00,2026-11-24,2026-11-26,Discharged,1,2,Awaiting partner acceptance,True,False
+D00056,F01,R00056,Medicare Part A,Home with home health,Home Health,2026-11-20 12:56:00,2026-11-25,2026-11-25,Cancelled (hospital transfer),0,,,True,
+D00057,F01,R00057,Medicare Part A,"Home, outpatient dialysis",Dialysis; Home Health,2026-11-25 11:12:00,2026-11-27,2026-11-28,Discharged,1,1,Awaiting partner acceptance,True,True
+D00058,F01,R00058,Medicare Advantage,Home with home health,Home Health,2026-11-23 14:26:00,2026-11-28,2026-11-28,Discharged,0,0,,True,True
+D00059,F01,R00059,Medicare Advantage,Transfer to LTACH,LTACH,2026-11-26 12:45:00,2026-11-29,2026-11-30,Discharged,1,1,Awaiting partner acceptance,True,
+D00060,F01,R00060,Medicare Part A,Home with hospice,Hospice,2026-11-24 09:30:00,2026-11-29,2026-11-29,Discharged,0,0,,True,False
+D00061,F01,R00061,Medicare Part A,Home with home health,Home Health,2026-11-24 09:14:00,2026-11-30,2026-11-30,Discharged,0,0,,True,False
+D00062,F01,R00062,Medicare Part A,"Home, outpatient dialysis",Dialysis; Home Health,2026-11-25 13:02:00,2026-11-30,2026-11-30,Discharged,0,0,,True,False
+D00063,F01,R00063,Medicaid,Home with DME only,DME,2026-11-25 14:25:00,2026-11-30,2026-11-30,Discharged,0,0,,True,False
+D00064,F01,R00064,Medicare Advantage,Home with DME only,DME,2026-11-27 08:43:00,2026-12-01,2026-12-05,Discharged,2,4,Awaiting partner acceptance,True,False
+D00065,F01,R00065,Medicare Part A,Home with home health,Home Health; DME,2026-11-30 14:08:00,2026-12-01,2026-12-01,Discharged,0,0,,True,False
+D00066,F01,R00066,Medicare Part A,Home with home health,Home Health,2026-11-25 09:17:00,2026-12-01,2026-12-01,Discharged,0,0,,True,False
+D00067,F01,R00067,Medicare Part A,"Home, outpatient dialysis",Dialysis; Home Health,2026-11-30 08:00:00,2026-12-02,2026-12-03,Discharged,1,1,Awaiting partner acceptance,True,False
+D00068,F01,R00068,Medicare Part A,Home with home health,Home Health,2026-11-30 08:00:00,2026-12-02,2026-12-03,Discharged,1,1,Awaiting partner acceptance,True,False
+D00069,F01,R00069,Medicare Part A,Home with home health,Home Health; DME,2026-11-27 11:00:00,2026-12-03,2026-12-03,Discharged,0,0,,True,False
+D00070,F01,R00070,Medicaid,Home with DME only,DME,2026-12-01 15:22:00,2026-12-04,2026-12-04,Discharged,0,0,,True,False
+D00071,F01,R00071,Medicare Advantage,Home with home health,Home Health; DME,2026-11-30 08:00:00,2026-12-04,2026-12-04,Discharged,0,0,,True,False
+D00072,F01,R00072,Commercial / other,Transfer to long-term care,Skilled Nursing,2026-11-30 14:48:00,2026-12-04,2026-12-04,Cancelled (hospital transfer),0,,,True,
+D00073,F01,R00073,Medicare Part A,Home with home health,Home Health,2026-12-02 09:08:00,2026-12-05,2026-12-05,Discharged,0,0,,True,False
+D00074,F01,R00074,Medicare Advantage,Home with home health,Home Health; DME,2026-12-04 15:03:00,2026-12-07,2026-12-11,Discharged,1,4,Awaiting partner acceptance,True,True
+D00075,F01,R00075,Medicare Part A,Home with home health,Home Health; DME,2026-12-01 10:32:00,2026-12-07,2026-12-07,Discharged,0,0,,True,True
+D00076,F01,R00076,Medicaid,Home with DME only,DME,2026-12-04 11:13:00,2026-12-09,2026-12-09,Discharged,0,0,,True,False
+D00077,F01,R00077,Medicare Advantage,Home with DME only,DME,2026-12-07 08:24:00,2026-12-11,2026-12-11,Discharged,0,0,,True,False
+D00078,F01,R00078,Medicare Advantage,Home with home health,Home Health; DME,2026-12-10 12:23:00,2026-12-14,2026-12-17,Discharged,1,3,Payer authorization pending,True,False
+D00079,F01,R00079,Medicare Advantage,Home with home health,Home Health,2026-12-09 08:54:00,2026-12-14,2026-12-14,Cancelled (hospital transfer),0,,,True,
+D00080,F01,R00080,Commercial / other,Home with home health,Home Health,2026-12-10 13:36:00,2026-12-14,2026-12-16,Discharged,1,2,Awaiting partner acceptance,True,False
+D00081,F01,R00081,Medicare Part A,Home with home health,Home Health; DME,2026-12-10 13:28:00,2026-12-14,2026-12-15,Discharged,1,1,Awaiting partner acceptance,True,False
+D00082,F01,R00082,Medicare Advantage,Home with home health,Home Health; DME,2026-12-09 10:40:00,2026-12-15,2026-12-15,Discharged,0,0,,True,False
+D00083,F01,R00083,Medicare Advantage,Home with home health,Home Health,2026-12-14 08:00:00,2026-12-16,2026-12-19,Discharged,1,3,Payer authorization pending,True,True
+D00084,F01,R00084,Medicare Advantage,Home with home health,Home Health,2026-12-14 14:01:00,2026-12-17,2026-12-17,Discharged,0,0,,True,False
+D00085,F01,R00085,Medicare Part A,Home with DME only,DME,2026-12-14 08:08:00,2026-12-17,2026-12-17,Discharged,0,0,,True,False
+D00086,F01,R00086,Commercial / other,Home with home health,Home Health; DME,2026-12-14 08:21:00,2026-12-17,2026-12-21,Discharged,1,4,Clinical status change,True,False
+D00087,F01,R00087,Commercial / other,"Home, outpatient dialysis",Dialysis,2026-12-16 15:21:00,2026-12-18,2026-12-18,Discharged,0,0,,True,False
+D00088,F01,R00088,Medicaid,Home with DME only,DME,2026-12-14 11:51:00,2026-12-19,2026-12-19,Discharged,0,0,,True,True
+D00089,F01,R00089,Medicare Part A,Home with DME only,DME,2026-12-15 10:01:00,2026-12-20,2026-12-20,Discharged,0,0,,True,False
+D00090,F01,R00090,Medicaid,Home with home health,Home Health; DME,2026-12-15 13:53:00,2026-12-21,2026-12-21,Discharged,0,0,,True,False
+D00091,F01,R00091,Medicare Part A,Home with DME only,DME,2026-12-18 08:45:00,2026-12-21,2026-12-21,Discharged,0,0,,True,False
+D00092,F01,R00092,Medicare Part A,Home with home health,Home Health,2026-12-18 13:43:00,2026-12-22,2026-12-22,Discharged,0,0,,True,False
+D00093,F01,R00093,Commercial / other,Home with home health,Home Health,2026-12-21 08:00:00,2026-12-22,2026-12-22,Discharged,0,0,,True,True
+D00094,F01,R00094,Medicaid,Home with home health,Home Health; DME,2026-12-21 15:52:00,2026-12-23,2026-12-25,Discharged,1,2,Awaiting partner acceptance,True,False
+D00095,F01,R00095,Commercial / other,Home with home health,Home Health,2026-12-21 08:00:00,2026-12-24,2026-12-26,Discharged,1,2,Clinical status change,True,False
+D00096,F01,R00096,Medicaid,Home with home health,Home Health; DME,2026-12-21 08:00:00,2026-12-24,2026-12-24,Discharged,0,0,,True,True
+D00097,F01,R00097,Medicare Part A,Home with home health,Home Health,2026-12-21 08:00:00,2026-12-25,2026-12-30,Discharged,2,5,Awaiting partner acceptance,True,False
+D00098,F01,R00098,Medicare Part A,Assisted living with home health,Home Health,2026-12-21 10:33:00,2026-12-25,2026-12-25,Discharged,0,0,,True,False
+D00099,F01,R00099,Medicare Advantage,"Home, outpatient dialysis",Dialysis; Home Health,2026-12-21 08:00:00,2026-12-25,2026-12-25,Discharged,0,0,,True,False
+D00100,F01,R00100,Medicare Advantage,Home with home health,Home Health,2026-12-28 08:00:00,2026-12-30,2026-12-30,Discharged,0,0,,True,False
+D00101,F01,R00101,Medicare Advantage,Home with home health,Home Health,2026-12-28 11:02:00,2026-12-30,2026-12-30,Discharged,0,0,,True,False
+D00102,F01,R00102,Medicare Part A,Home with home health,Home Health; DME,2026-12-28 08:00:00,2026-12-31,2027-01-04,Discharged,2,4,Payer authorization pending,True,False
+D00103,F01,R00103,Medicare Part A,Home with DME only,DME,2026-12-28 08:00:00,2026-12-31,2026-12-31,Discharged,0,0,,True,False
+D00104,F01,R00104,Medicare Part A,Assisted living with home health,Home Health,2026-12-28 13:35:00,2027-01-01,2027-01-01,Discharged,0,0,,True,True
+D00105,F01,R00105,Commercial / other,Home with home health,Home Health,2026-12-28 14:44:00,2027-01-01,2027-01-01,Discharged,0,0,,True,False
+D00106,F01,R00106,Medicare Advantage,"Home, outpatient dialysis",Dialysis; Home Health,2026-12-28 08:00:00,2027-01-01,2027-01-03,Discharged,1,2,Payer authorization pending,True,True
+D00107,F01,R00107,Medicare Part A,Home with home health,Home Health,2026-12-28 08:00:00,2027-01-01,2027-01-01,Discharged,0,0,,True,False
+D00108,F01,R00108,Medicaid,Home with home health,Home Health,2026-12-31 09:36:00,2027-01-02,2027-01-05,Discharged,1,3,Awaiting partner acceptance,True,False
+D00109,F01,R00109,Medicare Advantage,Home with DME only,DME,2026-12-31 15:07:00,2027-01-02,2027-01-05,Discharged,1,3,Awaiting DME delivery,True,False
+D00110,F01,R00110,Commercial / other,Transfer to LTACH,LTACH,2027-01-04 08:00:00,2027-01-04,2027-01-06,Discharged,1,2,Awaiting partner acceptance,True,
+D00111,F01,R00111,Medicare Advantage,Home with home health,Home Health,2027-01-04 08:00:00,2027-01-04,2027-01-09,Discharged,2,5,Awaiting partner acceptance,True,False
+D00112,F01,R00112,Commercial / other,Assisted living with home health,Home Health,2027-01-04 08:00:00,2027-01-04,2027-01-07,Discharged,1,3,Awaiting partner acceptance,True,False
+D00113,F01,R00113,Medicare Advantage,Assisted living with home health,Home Health,2027-01-04 08:00:00,2027-01-07,2027-01-07,Discharged,0,0,,True,True
+D00114,F01,R00114,Medicaid,Assisted living with home health,Home Health,2027-01-04 08:00:00,2027-01-07,2027-01-07,Discharged,0,0,,True,False
+D00115,F01,R00115,Medicare Advantage,Transfer to long-term care,Skilled Nursing,2027-01-04 08:00:00,2027-01-07,2027-01-07,Discharged,0,0,,True,
+D00116,F01,R00116,Medicare Advantage,Home with DME only,DME,2027-01-04 08:00:00,2027-01-08,2027-01-11,Discharged,1,3,Clinical status change,True,False
+D00117,F01,R00117,Medicare Part A,Transfer to long-term care,Skilled Nursing,2027-01-04 08:18:00,2027-01-09,2027-01-14,Discharged,1,5,No partner accepted,False,
+D00118,F01,R00118,Medicare Advantage,Transfer to long-term care,Skilled Nursing,2027-01-08 12:41:00,2027-01-10,2027-01-16,Discharged,1,6,Awaiting partner acceptance,True,
+D00119,F01,R00119,Medicaid,Home with home health,Home Health,2027-01-06 09:47:00,2027-01-10,2027-01-10,Cancelled (hospital transfer),0,,,True,
+D00120,F01,R00120,Medicare Part A,Home with hospice,Hospice,2027-01-07 09:21:00,2027-01-10,2027-01-10,Discharged,0,0,,True,False
+D00121,F01,R00121,Medicare Part A,Home with DME only,DME,2027-01-05 08:16:00,2027-01-11,2027-01-11,Cancelled (hospital transfer),0,,,True,
+D00122,F01,R00122,Medicare Part A,Home with home health,Home Health,2027-01-11 15:16:00,2027-01-14,2027-01-14,Discharged,0,0,,True,True
+D00123,F01,R00123,Medicaid,Home with home health,Home Health,2027-01-11 08:00:00,2027-01-14,2027-01-14,Discharged,0,0,,True,False
+D00124,F01,R00124,Medicare Advantage,Home with home health,Home Health,2027-01-11 08:00:00,2027-01-14,2027-01-14,Discharged,0,0,,True,False
+D00125,F01,R00125,Medicare Part A,Home with home health,Home Health,2027-01-11 10:14:00,2027-01-14,2027-01-14,Discharged,0,0,,True,False
+D00126,F01,R00126,Medicare Part A,Home with hospice,Hospice; DME,2027-01-11 08:00:00,2027-01-15,2027-01-15,Discharged,0,0,,True,False
+D00127,F01,R00127,Medicaid,Home with DME only,DME,2027-01-11 12:39:00,2027-01-15,2027-01-16,Discharged,1,1,Payer authorization pending,True,False
+D00128,F01,R00128,Medicaid,Home with DME only,DME,2027-01-12 09:30:00,2027-01-18,2027-01-18,Discharged,0,0,,True,False
+D00129,F01,R00129,Medicare Part A,Home with home health,Home Health,2027-01-14 10:22:00,2027-01-18,2027-01-18,Discharged,0,0,,True,False
+D00130,F01,R00130,Medicare Part A,Home with hospice,Hospice; DME,2027-01-14 09:13:00,2027-01-19,2027-01-19,Discharged,0,0,,True,False
+D00131,F01,R00131,Medicare Advantage,Assisted living with home health,Home Health,2027-01-15 09:44:00,2027-01-20,2027-01-20,Discharged,0,0,,True,False
+D00132,F01,R00132,Commercial / other,Home with home health,Home Health,2027-01-15 09:27:00,2027-01-20,2027-01-20,Discharged,0,0,,True,False
+D00133,F01,R00133,Medicaid,Home with home health,Home Health,2027-01-19 15:30:00,2027-01-22,2027-01-22,Discharged,0,0,,True,False
+D00134,F01,R00134,Medicare Advantage,Home with DME only,DME,2027-01-19 10:27:00,2027-01-22,2027-01-22,Discharged,0,0,,True,False
+D00135,F01,R00135,Medicare Advantage,Assisted living with home health,Home Health,2027-01-19 14:57:00,2027-01-22,2027-01-22,Discharged,0,0,,True,True
+D00136,F01,R00136,Medicare Advantage,Home with home health,Home Health,2027-01-19 08:28:00,2027-01-22,2027-01-22,Discharged,0,0,,True,True
+D00137,F01,R00137,Medicare Part A,Home with home health,Home Health,2027-01-19 15:28:00,2027-01-23,2027-01-23,Discharged,0,0,,True,False
+D00138,F01,R00138,Medicare Advantage,Home with DME only,DME,2027-01-19 14:36:00,2027-01-23,2027-01-23,Discharged,0,0,,True,False
+D00139,F01,R00139,Medicare Advantage,Transfer to long-term care,Skilled Nursing,2027-01-25 09:13:00,2027-01-26,2027-01-29,Discharged,1,3,Awaiting partner acceptance,True,
+D00140,F01,R00140,Medicare Advantage,Assisted living with home health,Home Health,2027-01-22 11:51:00,2027-01-27,2027-01-27,Discharged,0,0,,True,False
+D00141,F01,R00141,Medicare Advantage,Home with home health,Home Health,2027-01-26 08:58:00,2027-01-28,2027-01-28,Discharged,0,0,,True,False
+D00142,F01,R00142,Medicare Advantage,Home with home health,Home Health,2027-01-25 15:41:00,2027-01-28,2027-01-30,Discharged,1,2,Payer authorization pending,True,False
+D00143,F01,R00143,Commercial / other,Home with home health,Home Health; DME,2027-01-25 15:56:00,2027-01-28,2027-01-30,Discharged,1,2,Awaiting DME delivery,True,False
+D00144,F01,R00144,Medicare Part A,Transfer to long-term care,Skilled Nursing,2027-01-27 10:25:00,2027-01-28,2027-02-01,Discharged,2,4,Awaiting partner acceptance,True,
+D00145,F01,R00145,Medicaid,Home with home health,Home Health; DME,2027-01-27 15:20:00,2027-01-30,2027-02-03,Discharged,2,4,Awaiting DME delivery,True,True
+D00146,F01,R00146,Medicare Part A,Home with home health,Home Health; DME,2027-01-29 10:51:00,2027-02-01,2027-02-02,Discharged,1,1,Awaiting partner acceptance,True,False
+D00147,F01,R00147,Medicare Advantage,Assisted living with home health,Home Health,2027-02-01 08:00:00,2027-02-02,2027-02-08,Discharged,3,6,Awaiting partner acceptance,True,False
+D00148,F01,R00148,Medicare Part A,Home with home health,Home Health; DME,2027-01-28 15:08:00,2027-02-03,2027-02-03,Discharged,0,0,,True,True
+D00149,F01,R00149,Medicaid,Home with home health,Home Health,2027-01-29 10:42:00,2027-02-03,2027-02-03,Discharged,0,0,,True,True
+D00150,F01,R00150,Medicare Part A,Home with hospice,Hospice; DME,2027-01-28 09:46:00,2027-02-03,2027-02-03,Discharged,0,0,,True,False
+D00151,F01,R00151,Medicare Part A,Home with home health,Home Health; DME,2027-02-02 13:18:00,2027-02-08,2027-02-11,Discharged,1,3,Payer authorization pending,True,False
+D00152,F01,R00152,Medicare Part A,Home with home health,Home Health; DME,2027-02-08 08:00:00,2027-02-09,2027-02-10,Discharged,1,1,Awaiting DME delivery,True,False
+D00153,F01,R00153,Medicare Part A,"Home, outpatient dialysis",Dialysis; Home Health,2027-02-05 09:48:00,2027-02-10,2027-02-10,Discharged,0,0,,True,False
+D00154,F01,R00154,Medicaid,Home with home health,Home Health,2027-02-08 08:00:00,2027-02-11,2027-02-11,Discharged,0,0,,True,False
+D00155,F01,R00155,Commercial / other,Home with DME only,DME,2027-02-08 08:00:00,2027-02-11,2027-02-15,Discharged,1,4,Awaiting partner acceptance,True,True
+D00156,F01,R00156,Medicare Advantage,Assisted living with home health,Home Health,2027-02-08 08:00:00,2027-02-11,2027-02-11,Discharged,0,0,,True,True
+D00157,F01,R00157,Commercial / other,Home with hospice,Hospice,2027-02-05 11:51:00,2027-02-11,2027-02-11,Discharged,0,0,,True,False
+D00158,F01,R00158,Medicaid,Assisted living with home health,Home Health,2027-02-08 08:00:00,2027-02-11,2027-02-11,Discharged,0,0,,True,False
+D00159,F01,R00159,Medicare Part A,"Home, outpatient dialysis",Dialysis,2027-02-08 08:00:00,2027-02-12,2027-02-12,Discharged,0,0,,True,False
+D00160,F01,R00160,Medicare Part A,Home with home health,Home Health; DME,2027-02-11 13:44:00,2027-02-15,2027-02-15,Discharged,0,0,,True,False
+D00161,F01,R00161,Medicare Advantage,Home with home health,Home Health,2027-02-15 15:53:00,2027-02-17,2027-02-17,Discharged,0,0,,True,False
+D00162,F01,R00162,Medicare Part A,"Home, outpatient dialysis",Dialysis; Home Health,2027-02-12 10:15:00,2027-02-17,2027-02-18,Discharged,1,1,Awaiting partner acceptance,True,False
+D00163,F01,R00163,Medicare Part A,Home with home health,Home Health,2027-02-15 15:36:00,2027-02-19,2027-02-19,Discharged,0,0,,True,False
+D00164,F01,R00164,Medicare Part A,Home with home health,Home Health,2027-02-15 15:57:00,2027-02-19,2027-02-19,Discharged,0,0,,True,False
+D00165,F01,R00165,Commercial / other,Home with home health,Home Health; DME,2027-02-19 08:36:00,2027-02-22,2027-02-24,Discharged,1,2,Awaiting DME delivery,True,False
+D00166,F01,R00166,Medicare Advantage,Home with home health,Home Health; DME,2027-02-22 08:53:00,2027-02-24,2027-02-24,Discharged,0,0,,True,False
+D00167,F01,R00167,Commercial / other,Home with home health,Home Health,2027-02-22 08:00:00,2027-02-25,2027-02-25,Discharged,0,0,,True,True
+D00168,F01,R00168,Commercial / other,Home with home health,Home Health,2027-02-22 14:12:00,2027-02-25,2027-02-26,Discharged,1,1,Clinical status change,True,False
+D00169,F01,R00169,Medicare Part A,Assisted living with home health,Home Health,2027-02-24 10:04:00,2027-02-26,2027-03-02,Discharged,1,4,Clinical status change,True,False
+D00170,F01,R00170,Medicare Advantage,Transfer to LTACH,LTACH,2027-02-23 12:38:00,2027-02-26,2027-02-26,Cancelled (hospital transfer),0,,,True,
+D00171,F01,R00171,Medicare Part A,Transfer to long-term care,Skilled Nursing,2027-02-24 15:44:00,2027-02-27,2027-03-03,Discharged,1,4,Awaiting partner acceptance,True,
+D00172,F01,R00172,Commercial / other,Transfer to LTACH,LTACH,2027-02-23 14:43:00,2027-03-01,2027-03-01,Cancelled (hospital transfer),0,,,True,
+D00173,F01,R00173,Medicare Part A,Home with home health,Home Health,2027-02-24 11:27:00,2027-03-01,2027-03-02,Discharged,1,1,Awaiting partner acceptance,True,False
+D00174,F01,R00174,Medicare Advantage,Home with home health,Home Health; DME,2027-02-25 09:59:00,2027-03-02,2027-03-02,Discharged,0,0,,True,False
+D00175,F01,R00175,Medicare Advantage,Transfer to LTACH,LTACH,2027-02-26 14:06:00,2027-03-02,2027-03-06,Discharged,1,4,No partner accepted,False,
+D00176,F01,R00176,Medicare Advantage,Transfer to long-term care,Skilled Nursing,2027-03-01 08:00:00,2027-03-03,2027-03-03,Discharged,0,0,,True,
+D00177,F01,R00177,Medicare Advantage,Transfer to long-term care,Skilled Nursing,2027-03-01 08:00:00,2027-03-04,2027-03-05,Discharged,1,1,Awaiting partner acceptance,True,
+D00178,F01,R00178,Medicare Part A,Home with hospice,Hospice; DME,2027-03-01 12:53:00,2027-03-04,2027-03-04,Cancelled (hospital transfer),0,,,True,
+D00179,F01,R00179,Medicaid,Transfer to LTACH,LTACH,2027-03-01 12:22:00,2027-03-04,2027-03-04,Discharged,0,0,,True,
+D00180,F01,R00180,Medicare Part A,Transfer to LTACH,LTACH,2027-03-01 08:00:00,2027-03-05,2027-03-07,Discharged,1,2,Clinical status change,True,
+D00181,F01,R00181,Medicare Advantage,Home with home health,Home Health; DME,2027-03-04 15:29:00,2027-03-07,2027-03-07,Discharged,0,0,,True,True
+D00182,F01,R00182,Medicare Part A,Home with home health,Home Health,2027-03-04 12:00:00,2027-03-07,2027-03-13,Discharged,1,6,Awaiting partner acceptance,True,
+D00183,F01,R00183,Medicare Advantage,Home with hospice,Hospice,2027-03-04 09:19:00,2027-03-08,2027-03-08,Discharged,0,0,,True,False
+D00184,F01,R00184,Medicare Part A,Transfer to long-term care,Skilled Nursing,2027-03-04 12:59:00,2027-03-09,2027-03-10,Discharged,1,1,Awaiting partner acceptance,True,
+D00185,F01,R00185,Medicare Advantage,Home with home health,Home Health; DME,2027-03-05 15:41:00,2027-03-10,2027-03-10,Discharged,0,0,,True,False
+D00186,F01,R00186,Commercial / other,Home with home health,Home Health,2027-03-09 12:58:00,2027-03-11,2027-03-11,Cancelled (hospital transfer),0,,,True,
+D00187,F01,R00187,Commercial / other,Home with home health,Home Health,2027-03-09 15:30:00,2027-03-11,2027-03-11,Discharged,0,0,,True,
+D00188,F01,R00188,Medicare Part A,Home with home health,Home Health,2027-03-08 08:00:00,2027-03-13,2027-03-13,Discharged,0,0,,True,
+D00189,F01,R00189,Medicare Part A,Home with home health,Home Health; DME,2027-03-11 15:02:00,2027-03-15,2027-03-20,Discharged,2,5,Awaiting DME delivery,True,
+D00190,F01,R00190,Medicare Part A,Transfer to LTACH,LTACH,2027-03-12 13:03:00,2027-03-16,2027-03-16,Discharged,0,0,,True,
+D00191,F01,R00191,Medicare Part A,Home with home health,Home Health,2027-03-11 11:03:00,2027-03-16,2027-03-16,Discharged,0,0,,True,
+D00192,F01,R00192,Commercial / other,Home with home health,Home Health,2027-03-15 08:00:00,2027-03-18,2027-03-21,Discharged,1,3,Payer authorization pending,True,
+D00193,F01,R00193,Medicare Advantage,Home with home health,Home Health; DME,2027-03-12 10:20:00,2027-03-18,2027-03-18,Discharged,0,0,,True,
+D00194,F01,R00194,Medicare Part A,Home with home health,Home Health; DME,2027-03-15 11:34:00,2027-03-19,2027-03-19,Discharged,0,0,,True,
+D00195,F01,R00195,Medicare Part A,Home with home health,Home Health,2027-03-16 12:22:00,2027-03-19,2027-03-19,Discharged,0,0,,True,
+D00196,F01,R00196,Medicare Advantage,Home with home health,Home Health; DME,2027-03-18 11:00:00,2027-03-22,2027-03-24,Discharged,1,2,Awaiting partner acceptance,True,
+D00197,F01,R00197,Medicaid,Home with home health,Home Health; DME,2027-03-22 08:00:00,2027-03-24,2027-03-25,Discharged,1,1,Payer authorization pending,True,
+D00198,F01,R00198,Commercial / other,Home with DME only,DME,2027-03-19 11:42:00,2027-03-25,2027-03-26,Discharged,1,1,Resident / family not ready,True,
+D00199,F01,R00199,Medicare Advantage,Transfer to long-term care,Skilled Nursing,2027-03-22 08:00:00,2027-03-25,2027-03-25,Discharged,0,0,,True,
+D00200,F01,R00200,Medicare Part A,Home with home health,Home Health,2027-03-22 08:00:00,2027-03-26,2027-03-26,Discharged,0,0,,True,
+D00201,F01,R00201,Medicare Part A,Home with hospice,Hospice,2027-03-22 14:34:00,2027-03-27,2027-03-27,Discharged,0,0,,True,
+D00202,F01,R00202,Medicare Advantage,Home with home health,Home Health,2027-03-22 10:59:00,2027-03-27,2027-03-27,Discharged,0,0,,True,
+D00203,F01,R00203,Commercial / other,Home with home health,Home Health,2027-03-26 14:41:00,2027-03-30,2027-03-30,Discharged,0,0,,True,
+D00204,F01,R00204,Medicare Part A,"Home, outpatient dialysis",Dialysis,2027-03-25 09:08:00,2027-03-30,2027-03-30,Discharged,0,0,,True,
+D00205,F01,R00205,Medicare Part A,Home with home health,Home Health,2027-03-26 14:28:00,2027-03-30,2027-03-31,Discharged,1,1,Awaiting partner acceptance,True,
+D00206,F01,R00206,Medicare Advantage,Home with home health,Home Health; DME,2027-03-30 12:30:00,2027-03-31,2027-04-02,Discharged,1,2,Awaiting partner acceptance,True,
+D00207,F01,R00207,Medicare Advantage,Home with home health,Home Health,2027-03-29 08:00:00,2027-04-01,2027-04-01,Discharged,0,0,,True,
+D00208,F01,R00208,Commercial / other,Home with home health,Home Health,2027-03-31 15:00:00,2027-04-02,2027-04-02,Discharged,0,0,,True,
+D00209,F01,R00209,Medicare Part A,Assisted living with home health,Home Health,2027-04-01 11:26:00,2027-04-02,2027-04-06,Discharged,1,4,Awaiting partner acceptance,True,
+D00210,F01,R00210,Medicare Part A,Home with home health,Home Health,2027-04-01 09:22:00,2027-04-03,2027-04-10,Upcoming,2,7,Awaiting partner acceptance,True,
+D00211,F01,R00211,Medicaid,Home with home health,Home Health,2027-04-01 14:22:00,2027-04-04,2027-04-08,Discharged,1,4,Awaiting partner acceptance,True,
+D00212,F01,R00212,Medicare Advantage,Home with hospice,Hospice; DME,2027-04-01 11:37:00,2027-04-05,2027-04-06,Discharged,1,1,Payer authorization pending,True,
+D00213,F01,R00213,Medicare Part A,Home with hospice,Hospice; DME,2027-04-02 08:55:00,2027-04-05,2027-04-10,Upcoming,3,5,Awaiting DME delivery,True,
+D00214,F01,R00214,Medicare Advantage,"Home, outpatient dialysis",Dialysis; Home Health,2027-04-05 08:00:00,2027-04-09,2027-04-09,Discharged,0,0,,True,
+D00215,F01,R00215,Commercial / other,Assisted living with home health,Home Health,2027-04-08 10:44:00,2027-04-13,2027-04-14,Upcoming,1,1,Awaiting partner acceptance,True,
+D00218,F02,R00218,Medicare Part A,"Home, outpatient dialysis",Dialysis,2026-10-12 15:25:00,2026-10-15,2026-10-15,Discharged,0,0,,True,False
+D00219,F02,R00219,Medicare Advantage,Home with hospice,Hospice; DME,2026-10-12 11:05:00,2026-10-18,2026-10-18,Discharged,0,0,,True,False
+D00220,F02,R00220,Medicaid,Home with home health,Home Health,2026-10-14 09:59:00,2026-10-19,2026-10-19,Discharged,0,0,,True,False
+D00221,F02,R00221,Medicaid,Assisted living with home health,Home Health,2026-10-15 09:29:00,2026-10-20,2026-10-20,Discharged,0,0,,True,False
+D00222,F02,R00222,Medicare Advantage,Transfer to long-term care,Skilled Nursing,2026-10-22 14:13:00,2026-10-23,2026-10-28,Discharged,2,5,Awaiting partner acceptance,True,
+D00223,F02,R00223,Medicaid,Home with home health,Home Health; DME,2026-10-19 08:37:00,2026-10-23,2026-10-23,Discharged,0,0,,True,False
+D00224,F02,R00224,Medicare Part A,Transfer to long-term care,Skilled Nursing,2026-10-22 13:31:00,2026-10-27,2026-10-27,Discharged,0,0,,True,
+D00225,F02,R00225,Medicare Advantage,Home with home health,Home Health; DME,2026-10-26 08:00:00,2026-10-27,2026-10-28,Discharged,1,1,Awaiting partner acceptance,True,False
+D00226,F02,R00226,Medicare Advantage,Home with DME only,DME,2026-10-23 14:13:00,2026-10-27,2026-10-29,Discharged,1,2,Payer authorization pending,True,False
+D00227,F02,R00227,Medicare Advantage,Home with home health,Home Health; DME,2026-10-26 15:35:00,2026-10-28,2026-10-28,Discharged,0,0,,True,False
+D00228,F02,R00228,Medicare Part A,Home with home health,Home Health,2026-10-22 08:13:00,2026-10-28,2026-10-28,Discharged,0,0,,True,False
+D00229,F02,R00229,Medicare Part A,Home with home health,Home Health; DME,2026-10-27 12:25:00,2026-10-30,2026-10-30,Discharged,0,0,,True,False
+D00230,F02,R00230,Medicare Part A,Home with DME only,DME,2026-10-28 12:59:00,2026-10-31,2026-10-31,Discharged,0,0,,True,False
+D00231,F02,R00231,Medicare Advantage,Home with home health,Home Health,2026-10-28 12:49:00,2026-11-01,2026-11-02,Discharged,1,1,Awaiting partner acceptance,True,False
+D00232,F02,R00232,Medicare Advantage,Home with home health,Home Health,2026-10-29 14:39:00,2026-11-01,2026-11-01,Discharged,0,0,,True,False
+D00233,F02,R00233,Medicare Part A,Home with DME only,DME,2026-10-30 14:51:00,2026-11-02,2026-11-04,Discharged,1,2,Awaiting partner acceptance,True,False
+D00234,F02,R00234,Medicare Part A,Home with home health,Home Health,2026-11-02 08:00:00,2026-11-03,2026-11-03,Discharged,0,0,,True,False
+D00235,F02,R00235,Medicare Advantage,Home with hospice,Hospice; DME,2026-10-30 10:09:00,2026-11-04,2026-11-04,Discharged,0,0,,True,False
+D00236,F02,R00236,Medicare Advantage,Home with home health,Home Health,2026-11-03 13:08:00,2026-11-06,2026-11-06,Discharged,0,0,,True,False
+D00237,F02,R00237,Commercial / other,Home with home health,Home Health; DME,2026-11-04 11:39:00,2026-11-06,2026-11-09,Discharged,1,3,Clinical status change,True,False
+D00238,F02,R00238,Medicaid,Assisted living with home health,Home Health,2026-11-05 15:41:00,2026-11-06,2026-11-10,Discharged,1,4,Awaiting partner acceptance,True,False
+D00239,F02,R00239,Medicare Part A,Home with hospice,Hospice; DME,2026-11-09 08:00:00,2026-11-10,2026-11-11,Discharged,1,1,Awaiting DME delivery,True,False
+D00240,F02,R00240,Medicaid,Home with home health,Home Health,2026-11-10 12:53:00,2026-11-11,2026-11-11,Discharged,0,0,,True,False
+D00241,F02,R00241,Medicare Part A,Home with home health,Home Health; DME,2026-11-09 08:00:00,2026-11-12,2026-11-12,Cancelled (hospital transfer),0,,,True,
+D00242,F02,R00242,Commercial / other,Home with home health,Home Health,2026-11-11 11:28:00,2026-11-13,2026-11-13,Discharged,0,0,,True,False
+D00243,F02,R00243,Medicare Part A,Assisted living with home health,Home Health,2026-11-12 15:20:00,2026-11-14,2026-11-19,Discharged,2,5,Resident / family not ready,True,True
+D00244,F02,R00244,Medicare Advantage,Home with home health,Home Health,2026-11-12 09:07:00,2026-11-16,2026-11-16,Discharged,0,0,,True,False
+D00245,F02,R00245,Medicare Advantage,Home with home health,Home Health,2026-11-16 08:00:00,2026-11-18,2026-11-18,Discharged,0,0,,True,False
+D00246,F02,R00246,Medicare Part A,Home with home health,Home Health; DME,2026-11-17 10:33:00,2026-11-19,2026-11-19,Discharged,0,0,,True,False
+D00247,F02,R00247,Medicare Advantage,Home with home health,Home Health,2026-11-13 13:33:00,2026-11-19,2026-11-19,Discharged,0,0,,True,False
+D00248,F02,R00248,Medicare Advantage,Home with home health,Home Health,2026-11-13 11:36:00,2026-11-19,2026-11-19,Discharged,0,0,,True,False
+D00249,F02,R00249,Medicare Part A,Home with home health,Home Health,2026-11-17 09:08:00,2026-11-20,2026-11-20,Discharged,0,0,,True,True
+D00250,F02,R00250,Medicare Part A,Home with home health,Home Health; DME,2026-11-17 10:27:00,2026-11-20,2026-11-20,Discharged,0,0,,True,False
+D00251,F02,R00251,Medicare Advantage,Home with DME only,DME,2026-11-23 08:00:00,2026-11-22,2026-11-25,Discharged,1,3,Awaiting partner acceptance,True,False
+D00252,F02,R00252,Medicare Part A,Home with DME only,DME,2026-11-20 15:58:00,2026-11-23,2026-11-25,Discharged,2,2,Awaiting partner acceptance,True,False
+D00253,F02,R00253,Medicaid,Home with home health,Home Health,2026-11-19 14:20:00,2026-11-24,2026-11-24,Discharged,0,0,,True,False
+D00254,F02,R00254,Medicare Part A,Home with home health,Home Health; DME,2026-11-19 11:16:00,2026-11-24,2026-11-24,Discharged,0,0,,True,False
+D00255,F02,R00255,Medicare Part A,Transfer to long-term care,Skilled Nursing,2026-11-19 13:14:00,2026-11-25,2026-11-25,Discharged,0,0,,True,
+D00256,F02,R00256,Medicare Part A,Home with home health,Home Health,2026-11-23 08:00:00,2026-11-26,2026-11-26,Discharged,0,0,,True,False
+D00257,F02,R00257,Medicare Part A,Home with home health,Home Health; DME,2026-11-23 08:00:00,2026-11-26,2026-11-26,Discharged,0,0,,True,False
+D00258,F02,R00258,Medicare Part A,Assisted living with home health,Home Health,2026-11-23 08:00:00,2026-11-26,2026-11-26,Discharged,0,0,,True,False
+D00259,F02,R00259,Medicare Advantage,Home with home health,Home Health,2026-11-25 13:51:00,2026-11-29,2026-11-29,Discharged,0,0,,True,False
+D00260,F02,R00260,Medicare Advantage,Home with DME only,DME,2026-11-30 08:00:00,2026-12-04,2026-12-04,Cancelled (hospital transfer),0,,,True,
+D00261,F02,R00261,Medicare Part A,Home with DME only,DME,2026-12-04 13:27:00,2026-12-06,2026-12-10,Discharged,2,4,Awaiting partner acceptance,True,False
+D00262,F02,R00262,Medicare Part A,Home with home health,Home Health; DME,2026-12-02 12:02:00,2026-12-08,2026-12-08,Discharged,0,0,,True,False
+D00263,F02,R00263,Medicare Part A,Home with home health,Home Health,2026-12-07 13:06:00,2026-12-11,2026-12-11,Discharged,0,0,,True,False
+D00264,F02,R00264,Medicare Advantage,"Home, outpatient dialysis",Dialysis; Home Health,2026-12-08 13:44:00,2026-12-12,2026-12-12,Discharged,0,0,,True,True
+D00265,F02,R00265,Medicare Part A,Home with home health,Home Health; DME,2026-12-14 08:00:00,2026-12-15,2026-12-16,Discharged,1,1,Awaiting partner acceptance,True,False
+D00266,F02,R00266,Medicare Part A,Home with home health,Home Health,2026-12-10 15:36:00,2026-12-15,2026-12-15,Cancelled (hospital transfer),0,,,True,
+D00267,F02,R00267,Medicare Advantage,"Home, outpatient dialysis",Dialysis; Home Health,2026-12-14 13:37:00,2026-12-17,2026-12-17,Discharged,0,0,,True,False
+D00268,F02,R00268,Medicare Advantage,Home with home health,Home Health,2026-12-14 08:00:00,2026-12-19,2026-12-19,Discharged,0,0,,True,False
+D00269,F02,R00269,Commercial / other,Home with home health,Home Health; DME,2026-12-18 12:10:00,2026-12-21,2026-12-22,Discharged,1,1,Awaiting partner acceptance,True,False
+D00270,F02,R00270,Medicare Advantage,Transfer to LTACH,LTACH,2026-12-17 11:23:00,2026-12-21,2026-12-21,Discharged,0,0,,True,
+D00271,F02,R00271,Medicare Advantage,Home with home health,Home Health; DME,2026-12-18 14:01:00,2026-12-21,2026-12-21,Cancelled (hospital transfer),0,,,True,
+D00272,F02,R00272,Medicare Part A,Home with DME only,DME,2026-12-17 12:16:00,2026-12-22,2026-12-22,Discharged,0,0,,True,False
+D00273,F02,R00273,Commercial / other,Home with home health,Home Health,2026-12-21 08:00:00,2026-12-22,2026-12-22,Discharged,0,0,,True,False
+D00274,F02,R00274,Medicaid,Home with home health,Home Health; DME,2026-12-16 09:21:00,2026-12-22,2026-12-22,Discharged,0,0,,True,False
+D00275,F02,R00275,Commercial / other,Home with home health,Home Health,2026-12-18 10:49:00,2026-12-23,2026-12-23,Discharged,0,0,,True,False
+D00276,F02,R00276,Medicare Part A,Transfer to LTACH,LTACH,2026-12-21 08:00:00,2026-12-23,2026-12-23,Cancelled (hospital transfer),0,,,True,
+D00277,F02,R00277,Medicare Advantage,Home with home health,Home Health,2026-12-22 10:12:00,2026-12-24,2026-12-24,Discharged,0,0,,True,False
+D00278,F02,R00278,Medicare Part A,Transfer to long-term care,Skilled Nursing,2026-12-23 13:49:00,2026-12-24,2026-12-29,Discharged,1,5,Awaiting partner acceptance,True,
+D00279,F02,R00279,Medicaid,Assisted living with home health,Home Health,2026-12-21 10:01:00,2026-12-25,2026-12-25,Discharged,0,0,,True,False
+D00280,F02,R00280,Medicare Part A,Home with home health,Home Health,2026-12-22 08:31:00,2026-12-25,2026-12-27,Discharged,1,2,Resident / family not ready,True,False
+D00281,F02,R00281,Medicare Part A,Home with home health,Home Health; DME,2026-12-21 14:58:00,2026-12-25,2026-12-25,Discharged,0,0,,True,False
+D00282,F02,R00282,Medicare Advantage,Home with hospice,Hospice,2026-12-24 11:45:00,2026-12-28,2026-12-28,Discharged,0,0,,True,False
+D00283,F02,R00283,Medicaid,Transfer to LTACH,LTACH,2026-12-25 12:30:00,2026-12-28,2026-12-29,Discharged,1,1,Awaiting partner acceptance,True,
+D00284,F02,R00284,Medicare Part A,Home with DME only,DME,2026-12-24 15:34:00,2026-12-29,2026-12-29,Discharged,0,0,,True,False
+D00285,F02,R00285,Medicare Advantage,Home with home health,Home Health,2026-12-28 08:00:00,2026-12-31,2026-12-31,Discharged,0,0,,True,False
+D00286,F02,R00286,Medicare Advantage,Home with DME only,DME,2026-12-28 08:00:00,2026-12-31,2026-12-31,Discharged,0,0,,True,False
+D00287,F02,R00287,Medicare Advantage,Transfer to long-term care,Skilled Nursing,2026-12-28 08:00:00,2026-12-31,2026-12-31,Discharged,0,0,,True,
+D00288,F02,R00288,Medicaid,Assisted living with home health,Home Health,2026-12-30 08:47:00,2027-01-01,2027-01-02,Discharged,1,1,Awaiting partner acceptance,True,False
+D00289,F02,R00289,Medicare Advantage,Home with home health,Home Health,2026-12-31 13:15:00,2027-01-02,2027-01-03,Discharged,1,1,Resident / family not ready,True,False
+D00290,F02,R00290,Medicaid,Home with home health,Home Health; DME,2026-12-29 14:59:00,2027-01-02,2027-01-02,Discharged,0,0,,True,False
+D00291,F02,R00291,Medicare Part A,Home with home health,Home Health,2027-01-04 08:00:00,2027-01-06,2027-01-06,Discharged,0,0,,True,False
+D00292,F02,R00292,Medicare Part A,Home with DME only,DME,2027-01-01 10:28:00,2027-01-06,2027-01-06,Discharged,0,0,,True,False
+D00293,F02,R00293,Medicare Part A,Home with home health,Home Health; DME,2027-01-01 15:12:00,2027-01-06,2027-01-06,Discharged,0,0,,True,False
+D00294,F02,R00294,Medicare Advantage,Home with home health,Home Health; DME,2027-01-04 08:00:00,2027-01-08,2027-01-08,Discharged,0,0,,True,False
+D00295,F02,R00295,Medicare Part A,Home with DME only,DME,2027-01-06 13:06:00,2027-01-10,2027-01-10,Discharged,0,0,,True,False
+D00296,F02,R00296,Medicare Part A,"Home, outpatient dialysis",Dialysis,2027-01-07 12:42:00,2027-01-11,2027-01-13,Discharged,1,2,Awaiting partner acceptance,True,False
+D00297,F02,R00297,Medicare Part A,Home with home health,Home Health,2027-01-08 08:47:00,2027-01-12,2027-01-12,Discharged,0,0,,True,False
+D00298,F02,R00298,Medicare Part A,Home with home health,Home Health,2027-01-11 12:09:00,2027-01-14,2027-01-14,Discharged,0,0,,True,False
+D00299,F02,R00299,Medicare Part A,Home with home health,Home Health; DME,2027-01-11 13:04:00,2027-01-14,2027-01-14,Discharged,0,0,,True,True
+D00300,F02,R00300,Medicare Part A,Transfer to LTACH,LTACH,2027-01-08 11:12:00,2027-01-14,2027-01-14,Discharged,0,0,,True,
+D00301,F02,R00301,Medicaid,Home with DME only,DME,2027-01-11 12:11:00,2027-01-15,2027-01-15,Discharged,0,0,,True,False
+D00302,F02,R00302,Medicaid,Home with hospice,Hospice; DME,2027-01-15 14:25:00,2027-01-19,2027-01-20,Discharged,1,1,Awaiting DME delivery,True,True
+D00303,F02,R00303,Medicaid,Home with home health,Home Health,2027-01-18 08:00:00,2027-01-19,2027-01-19,Discharged,0,0,,True,False
+D00304,F02,R00304,Medicare Advantage,Home with DME only,DME,2027-01-18 08:00:00,2027-01-20,2027-01-20,Discharged,0,0,,True,False
+D00305,F02,R00305,Medicare Advantage,Home with home health,Home Health,2027-01-15 10:26:00,2027-01-21,2027-01-21,Discharged,0,0,,True,False
+D00306,F02,R00306,Medicare Part A,Home with home health,Home Health,2027-01-19 13:27:00,2027-01-21,2027-01-22,Discharged,1,1,Clinical status change,True,False
+D00307,F02,R00307,Medicaid,Assisted living with home health,Home Health,2027-01-19 13:47:00,2027-01-22,2027-01-22,Discharged,0,0,,True,False
+D00308,F02,R00308,Medicare Advantage,Home with home health,Home Health; DME,2027-01-18 08:53:00,2027-01-22,2027-01-22,Discharged,0,0,,True,False
+D00309,F02,R00309,Medicare Part A,Home with home health,Home Health; DME,2027-01-22 12:52:00,2027-01-25,2027-01-26,Discharged,1,1,Awaiting DME delivery,True,True
+D00310,F02,R00310,Medicare Part A,"Home, outpatient dialysis",Dialysis,2027-01-22 15:50:00,2027-01-25,2027-01-26,Discharged,1,1,Awaiting partner acceptance,True,False
+D00311,F02,R00311,Medicare Advantage,Home with DME only,DME,2027-01-21 11:18:00,2027-01-27,2027-01-30,Discharged,1,3,Payer authorization pending,True,False
+D00312,F02,R00312,Medicare Part A,Home with home health,Home Health; DME,2027-01-25 08:00:00,2027-01-27,2027-01-27,Discharged,0,0,,True,False
+D00313,F02,R00313,Medicare Advantage,Home with home health,Home Health,2027-01-25 08:00:00,2027-01-28,2027-01-28,Discharged,0,0,,True,False
+D00314,F02,R00314,Medicare Part A,Home with home health,Home Health,2027-01-26 14:57:00,2027-01-29,2027-01-29,Cancelled (hospital transfer),0,,,True,
+D00315,F02,R00315,Medicare Advantage,Home with home health,Home Health,2027-01-27 09:14:00,2027-01-29,2027-02-02,Discharged,1,4,Clinical status change,True,False
+D00316,F02,R00316,Medicare Advantage,"Home, outpatient dialysis",Dialysis,2027-01-27 09:50:00,2027-02-02,2027-02-02,Discharged,0,0,,True,False
+D00317,F02,R00317,Medicare Advantage,"Home, outpatient dialysis",Dialysis,2027-02-01 08:00:00,2027-02-04,2027-02-04,Discharged,0,0,,True,False
+D00318,F02,R00318,Medicare Part A,Home with DME only,DME,2027-02-01 08:00:00,2027-02-05,2027-02-05,Discharged,0,0,,True,False
+D00319,F02,R00319,Medicare Part A,Assisted living with home health,Home Health,2027-02-03 11:07:00,2027-02-05,2027-02-05,Discharged,0,0,,True,False
+D00320,F02,R00320,Medicare Advantage,Home with home health,Home Health,2027-02-05 11:43:00,2027-02-08,2027-02-08,Discharged,0,0,,True,True
+D00321,F02,R00321,Medicare Part A,Home with DME only,DME,2027-02-04 11:21:00,2027-02-08,2027-02-08,Discharged,0,0,,True,False
+D00322,F02,R00322,Medicare Advantage,Home with home health,Home Health,2027-02-08 08:00:00,2027-02-10,2027-02-10,Discharged,0,0,,True,False
+D00323,F02,R00323,Medicare Part A,Home with DME only,DME,2027-02-08 08:00:00,2027-02-12,2027-02-12,Discharged,0,0,,True,False
+D00324,F02,R00324,Medicaid,Home with DME only,DME,2027-02-08 08:00:00,2027-02-12,2027-02-12,Discharged,0,0,,True,False
+D00325,F02,R00325,Medicare Advantage,Home with DME only,DME,2027-02-15 14:09:00,2027-02-18,2027-02-18,Discharged,0,0,,True,False
+D00326,F02,R00326,Medicare Part A,Assisted living with home health,Home Health,2027-02-15 08:00:00,2027-02-18,2027-02-18,Discharged,0,0,,True,False
+D00327,F02,R00327,Medicare Advantage,"Home, outpatient dialysis",Dialysis,2027-02-15 13:54:00,2027-02-19,2027-02-19,Discharged,0,0,,True,False
+D00328,F02,R00328,Medicare Advantage,Home with hospice,Hospice,2027-02-18 11:55:00,2027-02-23,2027-02-23,Discharged,0,0,,True,False
+D00329,F02,R00329,Medicare Advantage,Assisted living with home health,Home Health,2027-02-22 14:59:00,2027-02-25,2027-02-25,Discharged,0,0,,True,True
+D00330,F02,R00330,Medicare Part A,Home with DME only,DME,2027-02-22 08:00:00,2027-02-26,2027-02-26,Discharged,0,0,,True,False
+D00331,F02,R00331,Medicare Advantage,Home with home health,Home Health; DME,2027-02-25 08:16:00,2027-03-01,2027-03-01,Discharged,0,0,,True,False
+D00332,F02,R00332,Medicare Advantage,Home with hospice,Hospice,2027-03-01 08:00:00,2027-03-02,2027-03-02,Discharged,0,0,,True,False
+D00333,F02,R00333,Medicaid,Transfer to long-term care,Skilled Nursing,2027-02-26 08:49:00,2027-03-02,2027-03-03,Discharged,1,1,Payer authorization pending,True,
+D00334,F02,R00334,Medicare Advantage,Home with home health,Home Health; DME,2027-02-25 11:53:00,2027-03-03,2027-03-03,Discharged,0,0,,True,False
+D00335,F02,R00335,Medicare Part A,Home with home health,Home Health; DME,2027-02-26 10:42:00,2027-03-04,2027-03-04,Discharged,0,0,,True,False
+D00336,F02,R00336,Medicare Advantage,Transfer to LTACH,LTACH,2027-03-01 08:00:00,2027-03-04,2027-03-04,Discharged,0,0,,True,
+D00337,F02,R00337,Medicare Part A,Home with home health,Home Health; DME,2027-03-02 11:42:00,2027-03-05,2027-03-09,Discharged,1,4,Clinical status change,True,False
+D00338,F02,R00338,Medicare Advantage,Home with home health,Home Health,2027-03-01 10:10:00,2027-03-05,2027-03-05,Discharged,0,0,,True,False
+D00339,F02,R00339,Medicare Part A,Home with home health,Home Health; DME,2027-03-03 13:04:00,2027-03-08,2027-03-08,Discharged,0,0,,True,False
+D00340,F02,R00340,Medicare Advantage,Home with home health,Home Health,2027-03-05 09:54:00,2027-03-10,2027-03-12,Discharged,1,2,Resident / family not ready,True,
+D00341,F02,R00341,Commercial / other,"Home, outpatient dialysis",Dialysis; Home Health,2027-03-08 08:00:00,2027-03-10,2027-03-10,Discharged,0,0,,True,False
+D00342,F02,R00342,Medicare Part A,Home with hospice,Hospice,2027-03-08 08:00:00,2027-03-10,2027-03-12,Discharged,1,2,Resident / family not ready,True,
+D00343,F02,R00343,Medicare Part A,Assisted living with home health,Home Health,2027-03-08 10:46:00,2027-03-11,2027-03-11,Discharged,0,0,,True,
+D00344,F02,R00344,Medicare Part A,Assisted living with home health,Home Health,2027-03-08 08:00:00,2027-03-12,2027-03-12,Discharged,0,0,,True,
+D00345,F02,R00345,Medicare Part A,Home with home health,Home Health; DME,2027-03-08 08:00:00,2027-03-12,2027-03-12,Discharged,0,0,,True,
+D00346,F02,R00346,Medicare Part A,Transfer to long-term care,Skilled Nursing,2027-03-09 15:43:00,2027-03-12,2027-03-13,Discharged,1,1,Awaiting partner acceptance,True,
+D00347,F02,R00347,Medicare Part A,Assisted living with home health,Home Health,2027-03-08 08:00:00,2027-03-12,2027-03-12,Discharged,0,0,,True,
+D00348,F02,R00348,Medicare Part A,Home with DME only,DME,2027-03-15 08:00:00,2027-03-15,2027-03-16,Discharged,1,1,Awaiting partner acceptance,True,
+D00349,F02,R00349,Medicare Part A,Home with home health,Home Health,2027-03-15 15:23:00,2027-03-19,2027-03-19,Discharged,0,0,,True,
+D00350,F02,R00350,Commercial / other,Home with home health,Home Health; DME,2027-03-17 11:59:00,2027-03-19,2027-03-23,Discharged,1,4,Awaiting partner acceptance,True,
+D00351,F02,R00351,Medicare Advantage,Home with hospice,Hospice; DME,2027-03-15 08:00:00,2027-03-19,2027-03-19,Discharged,0,0,,True,
+D00352,F02,R00352,Medicare Advantage,Assisted living with home health,Home Health,2027-03-15 12:02:00,2027-03-19,2027-03-22,Discharged,1,3,Payer authorization pending,True,
+D00353,F02,R00353,Medicare Part A,Home with DME only,DME,2027-03-16 08:51:00,2027-03-20,2027-03-20,Discharged,0,0,,True,
+D00354,F02,R00354,Medicare Part A,Assisted living with home health,Home Health,2027-03-17 15:52:00,2027-03-21,2027-03-21,Discharged,0,0,,True,
+D00355,F02,R00355,Medicaid,"Home, outpatient dialysis",Dialysis,2027-03-19 12:22:00,2027-03-22,2027-03-22,Discharged,0,0,,True,
+D00356,F02,R00356,Medicare Part A,Home with home health,Home Health,2027-03-22 08:00:00,2027-03-23,2027-03-23,Discharged,0,0,,True,
+D00357,F02,R00357,Medicare Part A,Home with home health,Home Health,2027-03-22 08:00:00,2027-03-23,2027-03-23,Discharged,0,0,,True,
+D00358,F02,R00358,Medicare Part A,"Home, outpatient dialysis",Dialysis,2027-03-18 09:23:00,2027-03-24,2027-03-26,Discharged,1,2,Resident / family not ready,True,
+D00359,F02,R00359,Medicare Part A,Home with DME only,DME,2027-03-22 08:00:00,2027-03-24,2027-03-24,Discharged,0,0,,True,
+D00360,F02,R00360,Medicare Advantage,"Home, outpatient dialysis",Dialysis,2027-03-22 13:10:00,2027-03-25,2027-03-25,Discharged,0,0,,True,
+D00361,F02,R00361,Commercial / other,Home with home health,Home Health; DME,2027-03-22 08:00:00,2027-03-26,2027-03-27,Discharged,1,1,Resident / family not ready,True,
+D00362,F02,R00362,Medicare Advantage,Home with home health,Home Health,2027-03-22 08:00:00,2027-03-26,2027-03-26,Discharged,0,0,,True,
+D00363,F02,R00363,Medicare Part A,Home with DME only,DME,2027-03-22 10:06:00,2027-03-26,2027-03-26,Discharged,0,0,,True,
+D00364,F02,R00364,Medicaid,Home with home health,Home Health,2027-03-22 14:58:00,2027-03-26,2027-03-27,Discharged,1,1,Resident / family not ready,True,
+D00365,F02,R00365,Medicare Part A,Transfer to LTACH,LTACH,2027-03-24 08:34:00,2027-03-28,2027-04-01,Discharged,1,4,Clinical status change,True,
+D00366,F02,R00366,Medicare Advantage,Home with home health,Home Health,2027-03-29 08:00:00,2027-03-31,2027-04-01,Discharged,1,1,Payer authorization pending,True,
+D00367,F02,R00367,Medicare Part A,Home with DME only,DME,2027-03-29 08:00:00,2027-03-31,2027-03-31,Discharged,0,0,,True,
+D00368,F02,R00368,Medicare Part A,Transfer to LTACH,LTACH,2027-03-29 08:00:00,2027-04-01,2027-04-01,Discharged,0,0,,True,
+D00369,F02,R00369,Medicare Part A,Assisted living with home health,Home Health,2027-03-26 08:51:00,2027-04-01,2027-04-01,Cancelled (hospital transfer),0,,,True,
+D00370,F02,R00370,Medicare Advantage,Home with home health,Home Health,2027-03-29 08:00:00,2027-04-02,2027-04-02,Discharged,0,0,,True,
+D00371,F02,R00371,Medicare Part A,Home with home health,Home Health; DME,2027-03-31 09:11:00,2027-04-05,2027-04-05,Discharged,0,0,,True,
+D00372,F02,R00372,Medicare Part A,Home with DME only,DME,2027-04-05 08:00:00,2027-04-07,2027-04-07,Discharged,0,0,,True,
+D00373,F02,R00373,Medicare Advantage,Home with home health,Home Health; DME,2027-04-05 08:00:00,2027-04-07,2027-04-07,Discharged,0,0,,True,
+D00374,F02,R00374,Medicare Part A,Home with DME only,DME,2027-04-05 14:47:00,2027-04-08,2027-04-08,Discharged,0,0,,True,
+D00375,F02,R00375,Medicare Advantage,Home with home health,Home Health; DME,2027-04-05 08:00:00,2027-04-08,2027-04-08,Discharged,0,0,,True,
+D00376,F02,R00376,Medicaid,Home with home health,Home Health; DME,2027-04-05 08:00:00,2027-04-09,2027-04-09,Discharged,0,0,,True,
+D00377,F02,R00377,Medicare Advantage,Home with home health,Home Health; DME,2027-04-08 10:39:00,2027-04-12,2027-04-13,Upcoming,1,1,Payer authorization pending,True,
+D00378,F02,R00378,Medicare Part A,Transfer to long-term care,Skilled Nursing,2027-04-09 11:56:00,2027-04-13,2027-04-13,Upcoming,0,0,,True,
+D00379,F02,R00379,Medicare Part A,Home with DME only,DME,2027-04-09 13:25:00,2027-04-13,2027-04-13,Upcoming,0,0,,True,
+D00380,F02,R00380,Medicare Advantage,Home with home health,Home Health; DME,2027-04-08 15:16:00,2027-04-13,2027-04-13,Upcoming,0,0,,True,
+D00382,F02,R00382,Medicaid,"Home, outpatient dialysis",Dialysis,2027-04-09 12:14:00,2027-04-14,2027-04-14,Upcoming,0,0,,False,
+D00388,F03,R00388,Medicare Advantage,Home with hospice,Hospice; DME,2026-10-13 09:26:00,2026-10-16,2026-10-16,Discharged,0,0,,True,False
+D00389,F03,R00389,Medicare Part A,"Home, outpatient dialysis",Dialysis,2026-10-12 08:00:00,2026-10-17,2026-10-17,Discharged,0,0,,True,True
+D00390,F03,R00390,Medicare Part A,Home with home health,Home Health; DME,2026-10-14 10:03:00,2026-10-17,2026-10-20,Discharged,1,3,Clinical status change,True,False
+D00391,F03,R00391,Medicare Advantage,Home with home health,Home Health; DME,2026-10-12 08:00:00,2026-10-17,2026-10-17,Discharged,0,0,,True,False
+D00392,F03,R00392,Medicare Part A,Home with home health,Home Health; DME,2026-10-15 08:02:00,2026-10-20,2026-10-20,Discharged,0,0,,True,False
+D00393,F03,R00393,Medicaid,Transfer to LTACH,LTACH,2026-10-16 12:39:00,2026-10-21,2026-10-21,Discharged,0,0,,True,
+D00394,F03,R00394,Medicare Advantage,Assisted living with home health,Home Health,2026-10-15 15:34:00,2026-10-21,2026-10-23,Discharged,1,2,Payer authorization pending,True,True
+D00395,F03,R00395,Medicare Part A,"Home, outpatient dialysis",Dialysis; Home Health,2026-10-19 13:44:00,2026-10-22,2026-10-22,Discharged,0,0,,True,True
+D00396,F03,R00396,Medicare Advantage,Transfer to long-term care,Skilled Nursing,2026-10-16 15:28:00,2026-10-22,2026-10-22,Discharged,0,0,,True,
+D00397,F03,R00397,Medicaid,Home with DME only,DME,2026-10-19 08:00:00,2026-10-23,2026-10-23,Discharged,0,0,,True,False
+D00398,F03,R00398,Commercial / other,Home with home health,Home Health; DME,2026-10-19 15:47:00,2026-10-23,2026-10-23,Discharged,0,0,,True,False
+D00399,F03,R00399,Medicaid,Transfer to long-term care,Skilled Nursing,2026-10-19 08:00:00,2026-10-23,2026-10-27,Discharged,1,4,Awaiting partner acceptance,True,
+D00400,F03,R00400,Medicare Advantage,Home with home health,Home Health,2026-10-19 08:00:00,2026-10-23,2026-10-23,Discharged,0,0,,True,False
+D00401,F03,R00401,Medicaid,Home with home health,Home Health; DME,2026-10-21 15:27:00,2026-10-23,2026-10-27,Discharged,1,4,Awaiting DME delivery,True,False
+D00402,F03,R00402,Medicare Advantage,Home with DME only,DME,2026-10-19 08:00:00,2026-10-23,2026-10-23,Cancelled (hospital transfer),0,,,True,
+D00403,F03,R00403,Medicare Advantage,Home with home health,Home Health; DME,2026-10-21 14:02:00,2026-10-25,2026-10-30,Discharged,2,5,Awaiting partner acceptance,True,True
+D00404,F03,R00404,Medicare Advantage,"Home, outpatient dialysis",Dialysis,2026-10-19 14:53:00,2026-10-25,2026-10-25,Discharged,0,0,,True,False
+D00405,F03,R00405,Medicaid,Home with home health,Home Health; DME,2026-10-23 14:54:00,2026-10-27,2026-10-28,Discharged,1,1,Awaiting DME delivery,True,True
+D00406,F03,R00406,Medicaid,Home with home health,Home Health,2026-10-21 13:17:00,2026-10-27,2026-10-27,Discharged,0,0,,True,False
+D00407,F03,R00407,Medicaid,Home with DME only,DME,2026-10-22 13:29:00,2026-10-27,2026-10-27,Discharged,0,0,,True,False
+D00408,F03,R00408,Medicare Part A,"Home, outpatient dialysis",Dialysis; Home Health,2026-10-22 13:43:00,2026-10-28,2026-10-28,Discharged,0,0,,True,True
+D00409,F03,R00409,Medicare Advantage,Home with home health,Home Health,2026-10-26 08:00:00,2026-10-29,2026-10-29,Discharged,0,0,,True,False
+D00410,F03,R00410,Medicare Part A,Home with home health,Home Health,2026-10-26 08:00:00,2026-10-30,2026-10-30,Discharged,0,0,,True,False
+D00411,F03,R00411,Medicaid,Assisted living with home health,Home Health,2026-10-26 08:00:00,2026-10-30,2026-11-01,Discharged,1,2,Resident / family not ready,True,False
+D00412,F03,R00412,Medicare Part A,Transfer to long-term care,Skilled Nursing,2026-10-26 08:00:00,2026-10-30,2026-10-31,Discharged,1,1,Resident / family not ready,True,
+D00413,F03,R00413,Medicare Part A,Home with DME only,DME,2026-10-26 09:33:00,2026-10-31,2026-11-01,Discharged,1,1,Resident / family not ready,True,False
+D00414,F03,R00414,Medicare Part A,Transfer to LTACH,LTACH,2026-10-28 13:41:00,2026-11-02,2026-11-02,Discharged,0,0,,True,
+D00415,F03,R00415,Medicare Advantage,Home with home health,Home Health,2026-11-02 08:00:00,2026-11-03,2026-11-03,Discharged,0,0,,True,False
+D00416,F03,R00416,Commercial / other,Home with home health,Home Health; DME,2026-11-02 08:00:00,2026-11-04,2026-11-04,Cancelled (hospital transfer),0,,,True,
+D00417,F03,R00417,Medicare Part A,Transfer to long-term care,Skilled Nursing,2026-10-29 13:58:00,2026-11-04,2026-11-04,Discharged,0,0,,True,
+D00418,F03,R00418,Medicaid,Home with home health,Home Health,2026-11-02 14:00:00,2026-11-05,2026-11-05,Cancelled (hospital transfer),0,,,True,
+D00419,F03,R00419,Medicare Part A,Home with home health,Home Health,2026-11-02 08:00:00,2026-11-05,2026-11-05,Cancelled (hospital transfer),0,,,True,
+D00420,F03,R00420,Medicare Part A,"Home, outpatient dialysis",Dialysis; Home Health,2026-10-30 08:08:00,2026-11-05,2026-11-05,Discharged,0,0,,True,False
+D00421,F03,R00421,Medicare Advantage,Home with home health,Home Health,2026-11-02 08:00:00,2026-11-06,2026-11-06,Discharged,0,0,,True,False
+D00422,F03,R00422,Medicare Advantage,Home with hospice,Hospice,2026-11-02 12:29:00,2026-11-06,2026-11-06,Discharged,0,0,,True,False
+D00423,F03,R00423,Medicare Advantage,Home with home health,Home Health,2026-11-04 08:15:00,2026-11-07,2026-11-07,Discharged,0,0,,True,False
+D00424,F03,R00424,Medicare Advantage,Home with DME only,DME,2026-11-05 11:50:00,2026-11-08,2026-11-13,Discharged,2,5,Awaiting DME delivery,True,False
+D00425,F03,R00425,Medicare Advantage,Home with hospice,Hospice; DME,2026-11-09 08:00:00,2026-11-10,2026-11-10,Discharged,0,0,,True,False
+D00426,F03,R00426,Commercial / other,Home with hospice,Hospice; DME,2026-11-09 08:00:00,2026-11-12,2026-11-12,Cancelled (hospital transfer),0,,,True,
+D00427,F03,R00427,Medicare Part A,Home with DME only,DME,2026-11-09 08:00:00,2026-11-12,2026-11-12,Discharged,0,0,,True,False
+D00428,F03,R00428,Medicare Part A,"Home, outpatient dialysis",Dialysis; Home Health,2026-11-12 12:49:00,2026-11-13,2026-11-18,Discharged,1,5,Awaiting partner acceptance,True,False
+D00429,F03,R00429,Medicare Advantage,"Home, outpatient dialysis",Dialysis,2026-11-09 08:00:00,2026-11-13,2026-11-16,Discharged,1,3,Awaiting partner acceptance,True,False
+D00430,F03,R00430,Commercial / other,Home with home health,Home Health,2026-11-09 10:25:00,2026-11-13,2026-11-16,Discharged,1,3,Payer authorization pending,True,False
+D00431,F03,R00431,Medicare Part A,Home with home health,Home Health,2026-11-12 11:24:00,2026-11-15,2026-11-19,Discharged,1,4,Clinical status change,True,False
+D00432,F03,R00432,Medicare Part A,Home with home health,Home Health,2026-11-10 14:58:00,2026-11-16,2026-11-16,Discharged,0,0,,True,False
+D00433,F03,R00433,Medicare Part A,Home with home health,Home Health,2026-11-11 09:11:00,2026-11-17,2026-11-17,Discharged,0,0,,True,False
+D00434,F03,R00434,Medicare Part A,Home with home health,Home Health; DME,2026-11-12 09:51:00,2026-11-17,2026-11-21,Discharged,1,4,Clinical status change,True,False
+D00435,F03,R00435,Medicare Advantage,Transfer to LTACH,LTACH,2026-11-16 08:00:00,2026-11-19,2026-11-21,Discharged,2,2,No partner accepted,False,
+D00436,F03,R00436,Medicare Advantage,Home with hospice,Hospice; DME,2026-11-16 08:00:00,2026-11-19,2026-11-19,Discharged,0,0,,True,False
+D00437,F03,R00437,Medicaid,Home with home health,Home Health; DME,2026-11-16 09:32:00,2026-11-20,2026-11-20,Discharged,0,0,,True,False
+D00438,F03,R00438,Medicaid,Home with home health,Home Health,2026-11-17 08:17:00,2026-11-20,2026-11-20,Discharged,0,0,,True,True
+D00439,F03,R00439,Medicare Part A,Home with hospice,Hospice; DME,2026-11-17 14:31:00,2026-11-21,2026-11-22,Discharged,1,1,Clinical status change,True,False
+D00440,F03,R00440,Commercial / other,Transfer to long-term care,Skilled Nursing,2026-11-23 08:00:00,2026-11-23,2026-11-26,Discharged,1,3,Awaiting partner acceptance,True,
+D00441,F03,R00441,Medicare Advantage,Home with home health,Home Health,2026-11-19 09:25:00,2026-11-23,2026-11-23,Discharged,0,0,,True,False
+D00442,F03,R00442,Medicare Advantage,Home with DME only,DME,2026-11-20 11:08:00,2026-11-23,2026-11-23,Cancelled (hospital transfer),0,,,True,
+D00443,F03,R00443,Medicare Advantage,Home with home health,Home Health; DME,2026-11-20 13:16:00,2026-11-25,2026-11-25,Discharged,0,0,,True,False
+D00444,F03,R00444,Medicare Part A,Home with hospice,Hospice; DME,2026-11-23 08:00:00,2026-11-25,2026-11-25,Discharged,0,0,,True,False
+D00445,F03,R00445,Medicare Advantage,Home with hospice,Hospice; DME,2026-11-23 08:00:00,2026-11-26,2026-12-02,Discharged,2,6,Payer authorization pending,True,False
+D00446,F03,R00446,Medicare Advantage,"Home, outpatient dialysis",Dialysis; Home Health,2026-11-23 08:00:00,2026-11-26,2026-11-26,Discharged,0,0,,True,False
+D00447,F03,R00447,Medicare Part A,"Home, outpatient dialysis",Dialysis,2026-11-23 08:00:00,2026-11-27,2026-11-27,Discharged,0,0,,True,False
+D00448,F03,R00448,Commercial / other,Assisted living with home health,Home Health,2026-11-23 08:00:00,2026-11-27,2026-11-27,Discharged,0,0,,True,False
+D00449,F03,R00449,Medicaid,Home with DME only,DME,2026-11-23 12:13:00,2026-11-27,2026-11-27,Cancelled (hospital transfer),0,,,True,
+D00450,F03,R00450,Medicare Part A,Home with home health,Home Health,2026-11-25 14:59:00,2026-11-30,2026-11-30,Discharged,0,0,,True,True
+D00451,F03,R00451,Medicare Part A,Home with DME only,DME,2026-11-26 13:43:00,2026-11-30,2026-12-05,Discharged,2,5,Awaiting partner acceptance,True,False
+D00452,F03,R00452,Medicare Advantage,Home with home health,Home Health,2026-11-26 10:33:00,2026-11-30,2026-11-30,Discharged,0,0,,True,False
+D00453,F03,R00453,Medicare Part A,Home with home health,Home Health; DME,2026-11-25 10:43:00,2026-12-01,2026-12-01,Discharged,0,0,,True,False
+D00454,F03,R00454,Medicaid,Home with home health,Home Health; DME,2026-11-30 08:00:00,2026-12-01,2026-12-01,Discharged,0,0,,True,False
+D00455,F03,R00455,Medicare Advantage,Assisted living with home health,Home Health,2026-11-27 09:55:00,2026-12-01,2026-12-01,Discharged,0,0,,True,False
+D00456,F03,R00456,Commercial / other,Home with hospice,Hospice,2026-11-30 08:00:00,2026-12-01,2026-12-01,Discharged,0,0,,True,False
+D00457,F03,R00457,Medicare Advantage,Home with home health,Home Health,2026-11-26 10:26:00,2026-12-01,2026-12-01,Discharged,0,0,,True,False
+D00458,F03,R00458,Medicare Part A,Home with home health,Home Health; DME,2026-11-27 10:53:00,2026-12-01,2026-12-01,Discharged,0,0,,True,False
+D00459,F03,R00459,Medicare Part A,Home with home health,Home Health; DME,2026-11-30 08:00:00,2026-12-02,2026-12-03,Discharged,1,1,Awaiting partner acceptance,True,False
+D00460,F03,R00460,Medicare Part A,Home with home health,Home Health,2026-11-30 08:00:00,2026-12-02,2026-12-02,Discharged,0,0,,True,False
+D00461,F03,R00461,Medicare Part A,Home with home health,Home Health,2026-11-30 08:00:00,2026-12-02,2026-12-02,Discharged,0,0,,True,False
+D00462,F03,R00462,Medicare Advantage,Home with home health,Home Health; DME,2026-11-30 08:00:00,2026-12-03,2026-12-03,Discharged,0,0,,True,False
+D00463,F03,R00463,Medicaid,Home with home health,Home Health; DME,2026-11-27 11:05:00,2026-12-03,2026-12-03,Discharged,0,0,,True,False
+D00464,F03,R00464,Commercial / other,Home with home health,Home Health,2026-11-30 15:18:00,2026-12-03,2026-12-03,Discharged,0,0,,True,False
+D00465,F03,R00465,Commercial / other,"Home, outpatient dialysis",Dialysis,2026-11-30 08:00:00,2026-12-04,2026-12-04,Discharged,0,0,,True,False
+D00466,F03,R00466,Medicare Advantage,Home with DME only,DME,2026-11-30 08:00:00,2026-12-04,2026-12-04,Discharged,0,0,,True,False
+D00467,F03,R00467,Medicare Advantage,Assisted living with home health,Home Health,2026-11-30 08:10:00,2026-12-04,2026-12-05,Discharged,1,1,Payer authorization pending,True,False
+D00468,F03,R00468,Commercial / other,Home with home health,Home Health; DME,2026-11-30 12:57:00,2026-12-05,2026-12-08,Discharged,1,3,Payer authorization pending,True,False
+D00469,F03,R00469,Medicare Advantage,Home with home health,Home Health; DME,2026-12-03 13:53:00,2026-12-06,2026-12-11,Discharged,2,5,Awaiting DME delivery,True,False
+D00470,F03,R00470,Commercial / other,Home with home health,Home Health,2026-12-03 13:24:00,2026-12-07,2026-12-09,Discharged,1,2,Clinical status change,True,False
+D00471,F03,R00471,Medicaid,Transfer to long-term care,Skilled Nursing,2026-12-03 13:14:00,2026-12-09,2026-12-09,Discharged,0,0,,True,
+D00472,F03,R00472,Commercial / other,Home with home health,Home Health,2026-12-04 11:12:00,2026-12-09,2026-12-10,Discharged,1,1,Resident / family not ready,True,False
+D00473,F03,R00473,Medicare Advantage,Transfer to long-term care,Skilled Nursing,2026-12-07 08:00:00,2026-12-09,2026-12-16,Discharged,2,7,Awaiting partner acceptance,True,
+D00474,F03,R00474,Medicare Part A,Home with home health,Home Health,2026-12-07 08:00:00,2026-12-09,2026-12-10,Discharged,1,1,Awaiting partner acceptance,True,False
+D00475,F03,R00475,Medicare Part A,"Home, outpatient dialysis",Dialysis; Home Health,2026-12-07 08:00:00,2026-12-10,2026-12-14,Discharged,1,4,Awaiting partner acceptance,True,False
+D00476,F03,R00476,Medicare Part A,Home with home health,Home Health; DME,2026-12-07 09:21:00,2026-12-11,2026-12-11,Discharged,0,0,,True,False
+D00477,F03,R00477,Medicare Part A,Transfer to LTACH,LTACH,2026-12-07 08:00:00,2026-12-11,2026-12-11,Discharged,0,0,,True,
+D00478,F03,R00478,Medicare Advantage,Assisted living with home health,Home Health,2026-12-07 11:44:00,2026-12-11,2026-12-11,Discharged,0,0,,True,False
+D00479,F03,R00479,Medicare Advantage,Home with home health,Home Health; DME,2026-12-09 08:34:00,2026-12-11,2026-12-12,Discharged,1,1,Awaiting DME delivery,True,False
+D00480,F03,R00480,Medicare Part A,Home with home health,Home Health,2026-12-14 08:00:00,2026-12-14,2026-12-14,Discharged,0,0,,True,False
+D00481,F03,R00481,Medicare Advantage,Home with home health,Home Health; DME,2026-12-11 08:56:00,2026-12-16,2026-12-17,Discharged,1,1,Clinical status change,True,False
+D00482,F03,R00482,Medicare Advantage,Home with home health,Home Health; DME,2026-12-14 11:26:00,2026-12-16,2026-12-18,Discharged,1,2,Resident / family not ready,True,False
+D00483,F03,R00483,Commercial / other,Assisted living with home health,Home Health,2026-12-14 12:03:00,2026-12-16,2026-12-16,Discharged,0,0,,True,True
+D00484,F03,R00484,Commercial / other,"Home, outpatient dialysis",Dialysis; Home Health,2026-12-11 10:02:00,2026-12-16,2026-12-16,Discharged,0,0,,True,False
+D00485,F03,R00485,Medicare Part A,Transfer to LTACH,LTACH,2026-12-14 08:00:00,2026-12-16,2026-12-19,Discharged,2,3,Awaiting partner acceptance,True,
+D00486,F03,R00486,Medicare Part A,Home with home health,Home Health; DME,2026-12-11 08:03:00,2026-12-17,2026-12-17,Discharged,0,0,,True,False
+D00487,F03,R00487,Medicare Advantage,Home with home health,Home Health; DME,2026-12-14 08:00:00,2026-12-17,2026-12-17,Discharged,0,0,,True,False
+D00488,F03,R00488,Medicare Part A,"Home, outpatient dialysis",Dialysis; Home Health,2026-12-14 08:41:00,2026-12-18,2026-12-18,Discharged,0,0,,True,False
+D00489,F03,R00489,Commercial / other,Home with home health,Home Health,2026-12-14 08:00:00,2026-12-18,2026-12-18,Discharged,0,0,,True,False
+D00490,F03,R00490,Medicare Part A,Home with home health,Home Health; DME,2026-12-15 15:26:00,2026-12-19,2026-12-19,Discharged,0,0,,True,False
+D00491,F03,R00491,Medicare Part A,Home with hospice,Hospice,2026-12-16 10:45:00,2026-12-20,2026-12-20,Discharged,0,0,,True,False
+D00492,F03,R00492,Commercial / other,Assisted living with home health,Home Health,2026-12-17 11:25:00,2026-12-21,2026-12-21,Discharged,0,0,,True,False
+D00493,F03,R00493,Medicare Advantage,Home with home health,Home Health,2026-12-17 13:56:00,2026-12-21,2026-12-24,Discharged,1,3,Clinical status change,True,False
+D00494,F03,R00494,Medicare Advantage,Home with home health,Home Health,2026-12-15 14:55:00,2026-12-21,2026-12-22,Discharged,1,1,Payer authorization pending,True,False
+D00495,F03,R00495,Medicaid,Transfer to LTACH,LTACH,2026-12-18 11:22:00,2026-12-22,2026-12-23,Discharged,1,1,Awaiting partner acceptance,True,
+D00496,F03,R00496,Medicare Advantage,Home with home health,Home Health,2026-12-18 13:50:00,2026-12-22,2026-12-25,Discharged,1,3,Payer authorization pending,True,True
+D00497,F03,R00497,Medicare Part A,Home with home health,Home Health,2026-12-18 11:03:00,2026-12-22,2026-12-22,Discharged,0,0,,True,False
+D00498,F03,R00498,Commercial / other,Home with home health,Home Health,2026-12-18 08:15:00,2026-12-23,2026-12-23,Discharged,0,0,,True,False
+D00499,F03,R00499,Commercial / other,Home with DME only,DME,2026-12-21 13:57:00,2026-12-24,2026-12-24,Discharged,0,0,,True,False
+D00500,F03,R00500,Medicaid,Home with DME only,DME,2026-12-21 08:00:00,2026-12-24,2026-12-25,Discharged,1,1,Payer authorization pending,True,True
+D00501,F03,R00501,Commercial / other,"Home, outpatient dialysis",Dialysis,2026-12-21 10:35:00,2026-12-25,2026-12-28,Discharged,1,3,Clinical status change,True,False
+D00502,F03,R00502,Medicare Part A,Transfer to long-term care,Skilled Nursing,2026-12-22 12:11:00,2026-12-28,2026-12-31,Discharged,1,3,Payer authorization pending,True,
+D00503,F03,R00503,Medicare Advantage,Home with DME only,DME,2026-12-25 10:36:00,2026-12-29,2026-12-30,Discharged,1,1,Awaiting DME delivery,True,False
+D00504,F03,R00504,Medicare Advantage,Home with hospice,Hospice,2026-12-23 11:41:00,2026-12-29,2026-12-29,Discharged,0,0,,True,False
+D00505,F03,R00505,Medicare Advantage,Home with hospice,Hospice; DME,2026-12-28 08:00:00,2026-12-30,2026-12-31,Discharged,1,1,Awaiting DME delivery,True,False
+D00506,F03,R00506,Medicaid,Home with home health,Home Health; DME,2026-12-28 08:00:00,2026-12-30,2026-12-31,Discharged,1,1,Awaiting DME delivery,True,False
+D00507,F03,R00507,Medicare Advantage,Transfer to long-term care,Skilled Nursing,2026-12-28 08:00:00,2026-12-31,2027-01-09,Discharged,2,9,No partner accepted,False,
+D00508,F03,R00508,Medicare Advantage,Home with DME only,DME,2026-12-28 08:00:00,2026-12-31,2027-01-01,Discharged,1,1,Payer authorization pending,True,True
+D00509,F03,R00509,Medicare Advantage,Home with hospice,Hospice; DME,2026-12-28 08:00:00,2026-12-31,2027-01-01,Discharged,1,1,Awaiting DME delivery,True,False
+D00510,F03,R00510,Medicare Part A,Transfer to long-term care,Skilled Nursing,2026-12-28 08:00:00,2026-12-31,2027-01-02,Discharged,1,2,Awaiting partner acceptance,True,
+D00511,F03,R00511,Medicare Part A,Home with home health,Home Health; DME,2026-12-28 11:49:00,2026-12-31,2027-01-01,Discharged,1,1,Awaiting partner acceptance,True,False
+D00512,F03,R00512,Medicare Advantage,Home with DME only,DME,2026-12-29 12:15:00,2027-01-01,2027-01-01,Cancelled (hospital transfer),0,,,True,
+D00513,F03,R00513,Medicare Advantage,Assisted living with home health,Home Health,2026-12-28 11:08:00,2027-01-01,2027-01-01,Discharged,0,0,,True,False
+D00514,F03,R00514,Medicare Part A,Home with home health,Home Health,2026-12-29 13:58:00,2027-01-02,2027-01-02,Discharged,0,0,,True,False
+D00515,F03,R00515,Medicare Part A,Home with DME only,DME,2026-12-30 13:23:00,2027-01-04,2027-01-04,Discharged,0,0,,True,False
+D00516,F03,R00516,Medicare Part A,Home with home health,Home Health; DME,2026-12-30 15:47:00,2027-01-04,2027-01-05,Discharged,1,1,Awaiting DME delivery,True,False
+D00517,F03,R00517,Medicare Advantage,Home with hospice,Hospice; DME,2026-12-31 12:33:00,2027-01-04,2027-01-06,Discharged,1,2,Awaiting partner acceptance,True,False
+D00518,F03,R00518,Medicare Part A,Home with home health,Home Health,2027-01-01 14:13:00,2027-01-05,2027-01-05,Discharged,0,0,,True,False
+D00519,F03,R00519,Medicare Part A,Transfer to long-term care,Skilled Nursing,2027-01-04 08:00:00,2027-01-05,2027-01-09,Discharged,1,4,No partner accepted,False,
+D00520,F03,R00520,Medicare Part A,Transfer to LTACH,LTACH,2027-01-04 08:00:00,2027-01-06,2027-01-06,Discharged,0,0,,True,
+D00521,F03,R00521,Medicare Part A,Assisted living with home health,Home Health,2027-01-04 08:00:00,2027-01-06,2027-01-06,Discharged,0,0,,True,False
+D00522,F03,R00522,Medicaid,Transfer to long-term care,Skilled Nursing,2027-01-05 15:03:00,2027-01-07,2027-01-08,Discharged,1,1,Awaiting partner acceptance,True,
+D00523,F03,R00523,Commercial / other,Home with hospice,Hospice,2027-01-04 08:00:00,2027-01-07,2027-01-07,Discharged,0,0,,True,False
+D00524,F03,R00524,Medicare Advantage,Home with home health,Home Health,2027-01-04 11:21:00,2027-01-08,2027-01-08,Discharged,0,0,,True,False
+D00525,F03,R00525,Medicare Part A,Home with DME only,DME,2027-01-06 08:38:00,2027-01-08,2027-01-13,Discharged,1,5,Awaiting partner acceptance,True,False
+D00526,F03,R00526,Medicaid,Home with home health,Home Health,2027-01-04 08:00:00,2027-01-08,2027-01-08,Discharged,0,0,,True,False
+D00527,F03,R00527,Medicare Part A,Home with home health,Home Health; DME,2027-01-06 13:33:00,2027-01-09,2027-01-09,Discharged,0,0,,True,False
+D00528,F03,R00528,Commercial / other,Assisted living with home health,Home Health,2027-01-07 10:06:00,2027-01-11,2027-01-11,Discharged,0,0,,True,False
+D00529,F03,R00529,Medicaid,Home with home health,Home Health,2027-01-07 15:41:00,2027-01-11,2027-01-13,Discharged,1,2,Awaiting partner acceptance,True,False
+D00530,F03,R00530,Medicaid,Home with home health,Home Health,2027-01-08 14:52:00,2027-01-12,2027-01-12,Discharged,0,0,,True,False
+D00531,F03,R00531,Commercial / other,Home with home health,Home Health,2027-01-06 08:31:00,2027-01-12,2027-01-12,Discharged,0,0,,True,False
+D00532,F03,R00532,Commercial / other,Home with hospice,Hospice,2027-01-11 12:55:00,2027-01-13,2027-01-13,Discharged,0,0,,True,False
+D00533,F03,R00533,Medicare Part A,Home with home health,Home Health; DME,2027-01-11 08:00:00,2027-01-13,2027-01-15,Discharged,1,2,Clinical status change,True,False
+D00534,F03,R00534,Medicare Advantage,"Home, outpatient dialysis",Dialysis,2027-01-07 15:17:00,2027-01-13,2027-01-17,Discharged,2,4,Payer authorization pending,True,False
+D00535,F03,R00535,Commercial / other,Assisted living with home health,Home Health,2027-01-08 12:39:00,2027-01-13,2027-01-13,Discharged,0,0,,True,False
+D00536,F03,R00536,Medicare Advantage,Home with hospice,Hospice,2027-01-11 08:00:00,2027-01-15,2027-01-15,Discharged,0,0,,True,False
+D00537,F03,R00537,Medicare Advantage,Home with home health,Home Health,2027-01-13 11:54:00,2027-01-15,2027-01-15,Discharged,0,0,,True,False
+D00538,F03,R00538,Medicare Advantage,Home with DME only,DME,2027-01-11 08:00:00,2027-01-15,2027-01-15,Discharged,0,0,,True,False
+D00539,F03,R00539,Medicare Advantage,Home with home health,Home Health; DME,2027-01-11 08:00:00,2027-01-15,2027-01-15,Discharged,0,0,,True,False
+D00540,F03,R00540,Medicare Part A,Home with home health,Home Health; DME,2027-01-11 13:05:00,2027-01-15,2027-01-15,Discharged,0,0,,True,True
+D00541,F03,R00541,Medicare Part A,Home with home health,Home Health; DME,2027-01-11 08:00:00,2027-01-15,2027-01-15,Discharged,0,0,,True,False
+D00542,F03,R00542,Medicare Part A,Home with home health,Home Health,2027-01-13 14:43:00,2027-01-18,2027-01-18,Discharged,0,0,,True,False
+D00543,F03,R00543,Commercial / other,"Home, outpatient dialysis",Dialysis,2027-01-14 09:07:00,2027-01-18,2027-01-18,Discharged,0,0,,True,False
+D00544,F03,R00544,Medicare Advantage,Home with home health,Home Health; DME,2027-01-15 13:32:00,2027-01-18,2027-01-19,Discharged,1,1,Awaiting partner acceptance,True,False
+D00545,F03,R00545,Medicare Advantage,Home with hospice,Hospice; DME,2027-01-13 09:03:00,2027-01-19,2027-01-19,Discharged,0,0,,True,False
+D00546,F03,R00546,Medicare Advantage,Transfer to long-term care,Skilled Nursing,2027-01-18 08:00:00,2027-01-20,2027-01-20,Discharged,0,0,,True,
+D00547,F03,R00547,Medicare Part A,"Home, outpatient dialysis",Dialysis,2027-01-18 08:00:00,2027-01-20,2027-01-25,Discharged,1,5,Awaiting partner acceptance,True,True
+D00548,F03,R00548,Medicare Advantage,Home with DME only,DME,2027-01-15 13:39:00,2027-01-21,2027-01-21,Discharged,0,0,,True,False
+D00549,F03,R00549,Medicaid,Home with home health,Home Health; DME,2027-01-18 08:00:00,2027-01-21,2027-01-22,Discharged,1,1,Awaiting DME delivery,True,False
+D00550,F03,R00550,Medicare Advantage,Home with hospice,Hospice,2027-01-18 15:51:00,2027-01-22,2027-01-22,Discharged,0,0,,True,True
+D00551,F03,R00551,Medicare Part A,Home with home health,Home Health,2027-01-18 09:12:00,2027-01-22,2027-01-22,Discharged,0,0,,True,False
+D00552,F03,R00552,Medicaid,Home with home health,Home Health,2027-01-18 08:00:00,2027-01-22,2027-01-22,Discharged,0,0,,True,False
+D00553,F03,R00553,Medicaid,Home with home health,Home Health,2027-01-21 12:29:00,2027-01-24,2027-01-26,Discharged,1,2,Awaiting partner acceptance,True,False
+D00554,F03,R00554,Medicare Advantage,Home with home health,Home Health,2027-01-19 13:10:00,2027-01-25,2027-01-25,Discharged,0,0,,True,False
+D00555,F03,R00555,Medicare Part A,Transfer to long-term care,Skilled Nursing,2027-01-22 08:37:00,2027-01-26,2027-01-26,Discharged,0,0,,True,
+D00556,F03,R00556,Medicare Advantage,"Home, outpatient dialysis",Dialysis; Home Health,2027-01-22 09:58:00,2027-01-26,2027-01-27,Discharged,1,1,Awaiting partner acceptance,True,False
+D00557,F03,R00557,Medicare Part A,Home with home health,Home Health,2027-01-22 14:26:00,2027-01-27,2027-01-27,Discharged,0,0,,True,False
+D00558,F03,R00558,Medicare Part A,Home with home health,Home Health,2027-01-22 10:48:00,2027-01-27,2027-01-27,Discharged,0,0,,True,True
+D00559,F03,R00559,Medicare Part A,Home with home health,Home Health,2027-01-25 08:00:00,2027-01-29,2027-01-29,Discharged,0,0,,True,False
+D00560,F03,R00560,Medicare Advantage,Home with home health,Home Health; DME,2027-01-28 08:00:00,2027-02-01,2027-02-01,Discharged,0,0,,True,False
+D00561,F03,R00561,Medicare Advantage,Assisted living with home health,Home Health,2027-01-27 14:56:00,2027-02-01,2027-02-01,Discharged,0,0,,True,False
+D00562,F03,R00562,Medicare Part A,Home with home health,Home Health,2027-02-01 08:03:00,2027-02-05,2027-02-05,Discharged,0,0,,True,True
+D00563,F03,R00563,Medicare Advantage,"Home, outpatient dialysis",Dialysis,2027-02-04 14:11:00,2027-02-10,2027-02-13,Discharged,2,3,Awaiting partner acceptance,True,False
+D00564,F03,R00564,Commercial / other,Home with home health,Home Health,2027-02-08 08:00:00,2027-02-10,2027-02-10,Discharged,0,0,,True,False
+D00565,F03,R00565,Medicare Part A,Transfer to long-term care,Skilled Nursing,2027-02-08 08:00:00,2027-02-11,2027-02-11,Discharged,0,0,,True,
+D00566,F03,R00566,Medicare Part A,Home with home health,Home Health,2027-02-08 08:00:00,2027-02-12,2027-02-12,Discharged,0,0,,True,False
+D00567,F03,R00567,Commercial / other,Transfer to long-term care,Skilled Nursing,2027-02-10 15:08:00,2027-02-12,2027-02-14,Discharged,1,2,Payer authorization pending,True,
+D00568,F03,R00568,Medicare Advantage,Home with DME only,DME,2027-02-08 08:00:00,2027-02-12,2027-02-14,Discharged,1,2,Payer authorization pending,True,False
+D00569,F03,R00569,Medicare Advantage,Home with home health,Home Health,2027-02-10 11:29:00,2027-02-15,2027-02-15,Discharged,0,0,,True,False
+D00570,F03,R00570,Medicare Part A,Assisted living with home health,Home Health,2027-02-12 09:13:00,2027-02-15,2027-02-15,Discharged,0,0,,True,False
+D00571,F03,R00571,Medicare Part A,Home with DME only,DME,2027-02-11 10:29:00,2027-02-16,2027-02-16,Discharged,0,0,,True,False
+D00572,F03,R00572,Medicare Part A,Home with home health,Home Health,2027-02-15 08:00:00,2027-02-17,2027-02-17,Discharged,0,0,,True,False
+D00573,F03,R00573,Medicare Advantage,Home with home health,Home Health,2027-02-15 08:00:00,2027-02-17,2027-02-17,Discharged,0,0,,True,False
+D00574,F03,R00574,Medicare Advantage,Home with home health,Home Health,2027-02-12 13:37:00,2027-02-18,2027-02-18,Discharged,0,0,,True,False
+D00575,F03,R00575,Medicaid,"Home, outpatient dialysis",Dialysis; Home Health,2027-02-17 14:04:00,2027-02-18,2027-02-24,Discharged,1,6,Awaiting partner acceptance,True,False
+D00576,F03,R00576,Medicare Advantage,Home with home health,Home Health,2027-02-12 12:48:00,2027-02-18,2027-02-18,Discharged,0,0,,True,False
+D00577,F03,R00577,Medicare Part A,Home with hospice,Hospice,2027-02-15 08:00:00,2027-02-19,2027-02-19,Discharged,0,0,,True,False
+D00578,F03,R00578,Medicare Part A,Home with DME only,DME,2027-02-15 08:33:00,2027-02-19,2027-02-19,Discharged,0,0,,True,False
+D00579,F03,R00579,Medicare Advantage,"Home, outpatient dialysis",Dialysis; Home Health,2027-02-15 08:19:00,2027-02-19,2027-02-23,Discharged,1,4,Clinical status change,True,False
+D00580,F03,R00580,Medicare Advantage,Assisted living with home health,Home Health,2027-02-16 13:13:00,2027-02-19,2027-02-19,Discharged,0,0,,True,False
+D00581,F03,R00581,Commercial / other,Home with home health,Home Health; DME,2027-02-16 11:46:00,2027-02-20,2027-02-20,Discharged,0,0,,True,False
+D00582,F03,R00582,Medicaid,Home with home health,Home Health,2027-02-16 13:16:00,2027-02-22,2027-02-22,Discharged,0,0,,True,False
+D00583,F03,R00583,Medicaid,Transfer to long-term care,Skilled Nursing,2027-02-19 09:55:00,2027-02-22,2027-02-24,Discharged,1,2,Awaiting partner acceptance,True,
+D00584,F03,R00584,Medicare Advantage,Home with home health,Home Health,2027-02-18 08:38:00,2027-02-23,2027-02-23,Discharged,0,0,,True,False
+D00585,F03,R00585,Medicare Advantage,Home with home health,Home Health,2027-02-17 12:53:00,2027-02-23,2027-02-23,Discharged,0,0,,True,False
+D00586,F03,R00586,Medicaid,Home with home health,Home Health,2027-02-22 08:00:00,2027-02-24,2027-02-24,Discharged,0,0,,True,False
+D00587,F03,R00587,Medicare Advantage,Assisted living with home health,Home Health,2027-02-22 08:00:00,2027-02-25,2027-02-25,Discharged,0,0,,True,True
+D00588,F03,R00588,Medicare Part A,"Home, outpatient dialysis",Dialysis; Home Health,2027-02-24 08:52:00,2027-02-25,2027-02-25,Discharged,0,0,,True,False
+D00589,F03,R00589,Medicare Part A,"Home, outpatient dialysis",Dialysis; Home Health,2027-02-19 09:52:00,2027-02-25,2027-02-27,Discharged,1,2,Resident / family not ready,True,False
+D00590,F03,R00590,Medicare Part A,Assisted living with home health,Home Health,2027-02-22 08:00:00,2027-02-25,2027-02-25,Cancelled (hospital transfer),0,,,True,
+D00591,F03,R00591,Medicare Part A,"Home, outpatient dialysis",Dialysis; Home Health,2027-02-22 08:00:00,2027-02-25,2027-02-25,Discharged,0,0,,True,False
+D00592,F03,R00592,Medicare Advantage,Home with home health,Home Health,2027-02-22 08:00:00,2027-02-26,2027-02-27,Discharged,1,1,Payer authorization pending,True,False
+D00593,F03,R00593,Medicare Advantage,Transfer to LTACH,LTACH,2027-02-22 08:00:00,2027-02-26,2027-02-28,Discharged,1,2,Payer authorization pending,True,
+D00594,F03,R00594,Medicare Part A,Home with DME only,DME,2027-02-23 10:41:00,2027-02-26,2027-02-26,Cancelled (hospital transfer),0,,,True,
+D00595,F03,R00595,Medicaid,Home with home health,Home Health,2027-02-22 09:05:00,2027-02-26,2027-02-26,Discharged,0,0,,True,False
+D00596,F03,R00596,Commercial / other,Home with hospice,Hospice,2027-02-26 15:39:00,2027-03-01,2027-03-01,Cancelled (hospital transfer),0,,,True,
+D00597,F03,R00597,Medicare Advantage,"Home, outpatient dialysis",Dialysis,2027-03-01 08:00:00,2027-03-02,2027-03-04,Discharged,1,2,Awaiting partner acceptance,True,False
+D00598,F03,R00598,Medicaid,Home with DME only,DME,2027-02-26 09:26:00,2027-03-02,2027-03-03,Discharged,1,1,Awaiting DME delivery,True,True
+D00599,F03,R00599,Medicare Part A,Home with home health,Home Health,2027-02-26 11:30:00,2027-03-02,2027-03-02,Discharged,0,0,,True,False
+D00600,F03,R00600,Medicaid,Home with home health,Home Health; DME,2027-03-01 08:00:00,2027-03-03,2027-03-05,Discharged,1,2,Awaiting partner acceptance,True,False
+D00601,F03,R00601,Commercial / other,Home with home health,Home Health,2027-03-01 08:00:00,2027-03-05,2027-03-05,Discharged,0,0,,True,False
+D00602,F03,R00602,Medicare Advantage,Home with home health,Home Health; DME,2027-03-01 08:00:00,2027-03-05,2027-03-05,Discharged,0,0,,True,True
+D00603,F03,R00603,Medicare Part A,Home with home health,Home Health,2027-03-01 12:13:00,2027-03-05,2027-03-05,Discharged,0,0,,True,True
+D00604,F03,R00604,Medicare Part A,Home with home health,Home Health; DME,2027-03-01 08:00:00,2027-03-06,2027-03-06,Discharged,0,0,,True,False
+D00605,F03,R00605,Medicare Advantage,Home with home health,Home Health,2027-03-02 15:11:00,2027-03-06,2027-03-06,Discharged,0,0,,True,False
+D00606,F03,R00606,Medicare Advantage,Home with home health,Home Health,2027-03-05 11:39:00,2027-03-08,2027-03-09,Discharged,1,1,Awaiting partner acceptance,True,False
+D00607,F03,R00607,Medicare Advantage,Home with home health,Home Health; DME,2027-03-04 15:52:00,2027-03-08,2027-03-08,Discharged,0,0,,True,True
+D00608,F03,R00608,Commercial / other,Home with home health,Home Health; DME,2027-03-02 15:59:00,2027-03-08,2027-03-08,Discharged,0,0,,True,False
+D00609,F03,R00609,Medicare Advantage,Home with home health,Home Health; DME,2027-03-05 14:32:00,2027-03-09,2027-03-09,Discharged,0,0,,True,False
+D00610,F03,R00610,Medicare Part A,Assisted living with home health,Home Health,2027-03-08 08:00:00,2027-03-09,2027-03-11,Discharged,1,2,Payer authorization pending,True,
+D00611,F03,R00611,Medicaid,Home with home health,Home Health; DME,2027-03-08 08:00:00,2027-03-09,2027-03-09,Cancelled (hospital transfer),0,,,True,
+D00612,F03,R00612,Commercial / other,Home with home health,Home Health,2027-03-08 11:15:00,2027-03-09,2027-03-09,Discharged,0,0,,True,False
+D00613,F03,R00613,Medicaid,Home with home health,Home Health; DME,2027-03-08 08:00:00,2027-03-10,2027-03-10,Discharged,0,0,,True,True
+D00614,F03,R00614,Medicare Advantage,Home with home health,Home Health; DME,2027-03-08 08:00:00,2027-03-10,2027-03-10,Discharged,0,0,,True,False
+D00615,F03,R00615,Medicaid,"Home, outpatient dialysis",Dialysis; Home Health,2027-03-08 08:00:00,2027-03-10,2027-03-10,Discharged,0,0,,True,False
+D00616,F03,R00616,Medicaid,Home with home health,Home Health; DME,2027-03-08 08:00:00,2027-03-11,2027-03-11,Discharged,0,0,,True,
+D00617,F03,R00617,Medicaid,Assisted living with home health,Home Health,2027-03-08 08:00:00,2027-03-11,2027-03-13,Discharged,1,2,Awaiting partner acceptance,True,
+D00618,F03,R00618,Medicaid,Home with home health,Home Health,2027-03-08 12:22:00,2027-03-11,2027-03-11,Discharged,0,0,,True,
+D00619,F03,R00619,Commercial / other,Home with hospice,Hospice,2027-03-08 08:00:00,2027-03-12,2027-03-12,Cancelled (hospital transfer),0,,,True,
+D00620,F03,R00620,Medicaid,Assisted living with home health,Home Health,2027-03-08 08:00:00,2027-03-12,2027-03-12,Cancelled (hospital transfer),0,,,True,
+D00621,F03,R00621,Medicare Advantage,Home with DME only,DME,2027-03-08 08:00:00,2027-03-12,2027-03-12,Discharged,0,0,,True,
+D00622,F03,R00622,Medicare Advantage,Home with home health,Home Health; DME,2027-03-08 08:00:00,2027-03-12,2027-03-12,Discharged,0,0,,True,
+D00623,F03,R00623,Medicare Advantage,Home with home health,Home Health,2027-03-08 08:00:00,2027-03-12,2027-03-12,Discharged,0,0,,True,
+D00624,F03,R00624,Commercial / other,Home with home health,Home Health,2027-03-08 08:00:00,2027-03-12,2027-03-12,Discharged,0,0,,True,
+D00625,F03,R00625,Medicaid,Home with home health,Home Health; DME,2027-03-08 08:00:00,2027-03-12,2027-03-14,Discharged,1,2,Payer authorization pending,True,
+D00626,F03,R00626,Medicare Part A,Transfer to long-term care,Skilled Nursing,2027-03-10 12:44:00,2027-03-14,2027-03-17,Discharged,1,3,Awaiting partner acceptance,True,
+D00627,F03,R00627,Medicare Advantage,Home with home health,Home Health,2027-03-12 12:59:00,2027-03-16,2027-03-19,Discharged,2,3,Awaiting partner acceptance,True,
+D00628,F03,R00628,Medicaid,Home with DME only,DME,2027-03-12 14:36:00,2027-03-16,2027-03-20,Discharged,2,4,Awaiting DME delivery,True,
+D00629,F03,R00629,Medicare Part A,Home with home health,Home Health,2027-03-12 15:13:00,2027-03-16,2027-03-16,Discharged,0,0,,True,
+D00630,F03,R00630,Medicare Advantage,Assisted living with home health,Home Health,2027-03-10 10:05:00,2027-03-16,2027-03-18,Discharged,1,2,Resident / family not ready,True,
+D00631,F03,R00631,Medicare Part A,Home with home health,Home Health,2027-03-15 08:00:00,2027-03-17,2027-03-17,Cancelled (hospital transfer),0,,,True,
+D00632,F03,R00632,Medicare Part A,Home with hospice,Hospice; DME,2027-03-15 08:00:00,2027-03-17,2027-03-19,Discharged,1,2,Awaiting partner acceptance,True,
+D00633,F03,R00633,Medicare Part A,Home with home health,Home Health; DME,2027-03-15 14:24:00,2027-03-17,2027-03-17,Cancelled (hospital transfer),0,,,True,
+D00634,F03,R00634,Medicare Part A,Home with home health,Home Health,2027-03-12 11:26:00,2027-03-18,2027-03-18,Discharged,0,0,,True,
+D00635,F03,R00635,Medicare Advantage,Home with home health,Home Health; DME,2027-03-15 08:00:00,2027-03-18,2027-03-18,Discharged,0,0,,True,
+D00636,F03,R00636,Medicaid,Home with home health,Home Health; DME,2027-03-15 08:00:00,2027-03-18,2027-03-18,Discharged,0,0,,True,
+D00637,F03,R00637,Medicare Part A,Home with home health,Home Health,2027-03-15 08:00:00,2027-03-18,2027-03-18,Discharged,0,0,,True,
+D00638,F03,R00638,Medicare Part A,Transfer to long-term care,Skilled Nursing,2027-03-15 15:51:00,2027-03-18,2027-03-19,Discharged,1,1,Awaiting partner acceptance,True,
+D00639,F03,R00639,Medicare Advantage,Home with home health,Home Health,2027-03-15 08:00:00,2027-03-19,2027-03-19,Cancelled (hospital transfer),0,,,True,
+D00640,F03,R00640,Medicare Part A,Home with home health,Home Health,2027-03-15 10:36:00,2027-03-19,2027-03-19,Discharged,0,0,,True,
+D00641,F03,R00641,Medicare Part A,Assisted living with home health,Home Health,2027-03-15 08:00:00,2027-03-20,2027-03-20,Discharged,0,0,,True,
+D00642,F03,R00642,Medicaid,Transfer to LTACH,LTACH,2027-03-15 15:29:00,2027-03-20,2027-03-20,Discharged,0,0,,True,
+D00643,F03,R00643,Medicare Advantage,Home with home health,Home Health,2027-03-19 15:17:00,2027-03-23,2027-03-24,Discharged,1,1,Resident / family not ready,True,
+D00644,F03,R00644,Commercial / other,Home with home health,Home Health,2027-03-19 08:35:00,2027-03-23,2027-03-23,Discharged,0,0,,True,
+D00645,F03,R00645,Commercial / other,"Home, outpatient dialysis",Dialysis,2027-03-22 08:00:00,2027-03-24,2027-03-24,Discharged,0,0,,True,
+D00646,F03,R00646,Medicaid,Home with home health,Home Health; DME,2027-03-19 12:18:00,2027-03-24,2027-03-25,Discharged,1,1,Awaiting partner acceptance,True,
+D00647,F03,R00647,Medicare Part A,Transfer to LTACH,LTACH,2027-03-22 08:00:00,2027-03-24,2027-03-24,Discharged,0,0,,True,
+D00648,F03,R00648,Medicare Part A,Home with hospice,Hospice; DME,2027-03-18 13:22:00,2027-03-24,2027-03-24,Discharged,0,0,,True,
+D00649,F03,R00649,Medicare Advantage,Home with home health,Home Health,2027-03-22 08:00:00,2027-03-25,2027-03-30,Discharged,2,5,Payer authorization pending,True,
+D00650,F03,R00650,Commercial / other,Home with DME only,DME,2027-03-22 08:00:00,2027-03-25,2027-03-25,Discharged,0,0,,True,
+D00651,F03,R00651,Medicare Part A,Home with home health,Home Health,2027-03-19 14:12:00,2027-03-25,2027-03-25,Discharged,0,0,,True,
+D00652,F03,R00652,Medicare Advantage,Home with home health,Home Health,2027-03-22 08:00:00,2027-03-26,2027-03-29,Discharged,1,3,Clinical status change,True,
+D00653,F03,R00653,Medicare Advantage,Home with hospice,Hospice,2027-03-23 15:00:00,2027-03-26,2027-03-26,Discharged,0,0,,True,
+D00654,F03,R00654,Medicaid,Home with home health,Home Health,2027-03-22 08:00:00,2027-03-26,2027-03-26,Discharged,0,0,,True,
+D00655,F03,R00655,Medicare Part A,Home with home health,Home Health; DME,2027-03-24 09:42:00,2027-03-27,2027-03-29,Discharged,1,2,Payer authorization pending,True,
+D00656,F03,R00656,Medicare Part A,Home with home health,Home Health,2027-03-23 14:31:00,2027-03-29,2027-03-29,Discharged,0,0,,True,
+D00657,F03,R00657,Medicare Part A,Home with home health,Home Health; DME,2027-03-29 08:00:00,2027-03-30,2027-03-31,Discharged,1,1,Awaiting partner acceptance,True,
+D00658,F03,R00658,Medicare Part A,Assisted living with home health,Home Health,2027-03-25 15:22:00,2027-03-31,2027-03-31,Discharged,0,0,,True,
+D00659,F03,R00659,Commercial / other,Transfer to long-term care,Skilled Nursing,2027-03-29 08:00:00,2027-03-31,2027-03-31,Discharged,0,0,,True,
+D00660,F03,R00660,Medicaid,Home with home health,Home Health; DME,2027-03-29 09:44:00,2027-03-31,2027-03-31,Discharged,0,0,,True,
+D00661,F03,R00661,Medicaid,Home with DME only,DME,2027-03-25 11:02:00,2027-03-31,2027-03-31,Discharged,0,0,,True,
+D00662,F03,R00662,Commercial / other,"Home, outpatient dialysis",Dialysis,2027-03-29 08:00:00,2027-03-31,2027-03-31,Discharged,0,0,,True,
+D00663,F03,R00663,Medicare Part A,Home with home health,Home Health,2027-03-29 08:00:00,2027-03-31,2027-03-31,Discharged,0,0,,True,
+D00664,F03,R00664,Commercial / other,Transfer to long-term care,Skilled Nursing,2027-03-26 10:17:00,2027-04-01,2027-04-05,Discharged,1,4,Clinical status change,True,
+D00665,F03,R00665,Medicaid,Home with home health,Home Health,2027-03-29 10:34:00,2027-04-01,2027-04-01,Discharged,0,0,,True,
+D00666,F03,R00666,Medicare Part A,Home with home health,Home Health,2027-03-29 09:27:00,2027-04-01,2027-04-04,Discharged,1,3,Clinical status change,True,
+D00667,F03,R00667,Medicare Part A,Home with home health,Home Health; DME,2027-03-30 09:48:00,2027-04-05,2027-04-05,Discharged,0,0,,True,
+D00668,F03,R00668,Commercial / other,Home with home health,Home Health; DME,2027-03-30 08:30:00,2027-04-05,2027-04-06,Discharged,1,1,Resident / family not ready,True,
+D00669,F03,R00669,Medicare Part A,Home with DME only,DME,2027-04-02 15:19:00,2027-04-05,2027-04-06,Discharged,1,1,Awaiting partner acceptance,True,
+D00670,F03,R00670,Medicare Part A,Home with home health,Home Health,2027-04-02 12:59:00,2027-04-06,2027-04-07,Discharged,1,1,Awaiting partner acceptance,True,
+D00671,F03,R00671,Medicare Part A,Home with home health,Home Health,2027-04-05 08:00:00,2027-04-06,2027-04-06,Cancelled (hospital transfer),0,,,True,
+D00672,F03,R00672,Medicare Part A,Home with home health,Home Health,2027-04-02 14:13:00,2027-04-06,2027-04-10,Upcoming,1,4,Awaiting partner acceptance,True,
+D00673,F03,R00673,Medicare Part A,Home with home health,Home Health,2027-04-02 13:52:00,2027-04-06,2027-04-06,Discharged,0,0,,True,
+D00674,F03,R00674,Medicaid,Home with hospice,Hospice,2027-04-01 09:20:00,2027-04-06,2027-04-06,Discharged,0,0,,True,
+D00675,F03,R00675,Medicare Part A,Home with hospice,Hospice; DME,2027-04-06 12:01:00,2027-04-07,2027-04-08,Discharged,1,1,Awaiting partner acceptance,True,
+D00676,F03,R00676,Commercial / other,"Home, outpatient dialysis",Dialysis; Home Health,2027-04-05 10:53:00,2027-04-08,2027-04-08,Cancelled (hospital transfer),0,,,True,
+D00677,F03,R00677,Medicare Part A,Home with hospice,Hospice; DME,2027-04-05 09:22:00,2027-04-09,2027-04-11,Upcoming,1,2,Clinical status change,True,
+D00678,F03,R00678,Medicare Advantage,Home with home health,Home Health,2027-04-05 08:00:00,2027-04-09,2027-04-11,Upcoming,1,2,Payer authorization pending,True,
+D00679,F03,R00679,Medicare Advantage,Home with DME only,DME,2027-04-05 08:00:00,2027-04-09,2027-04-09,Discharged,0,0,,True,
+D00680,F03,R00680,Medicaid,Home with home health,Home Health; DME,2027-04-07 15:11:00,2027-04-10,2027-04-10,Upcoming,0,0,,True,
+D00681,F03,R00681,Medicare Part A,Home with DME only,DME,2027-04-08 11:53:00,2027-04-12,2027-04-12,Upcoming,0,0,,True,
+D00682,F03,R00682,Medicare Advantage,Home with home health,Home Health,2027-04-08 08:13:00,2027-04-12,2027-04-12,Upcoming,0,0,,True,
+D00683,F03,R00683,Medicare Advantage,Home with hospice,Hospice,2027-04-09 10:25:00,2027-04-14,2027-04-18,Upcoming,2,4,Payer authorization pending,True,
+D00690,F04,R00690,Medicare Advantage,"Home, outpatient dialysis",Dialysis,2026-10-14 08:47:00,2026-10-15,2026-10-17,Discharged,1,2,Awaiting partner acceptance,True,False
+D00691,F04,R00691,Medicare Advantage,Assisted living with home health,Home Health,2026-10-19 08:00:00,2026-10-19,2026-10-20,Discharged,1,1,Awaiting partner acceptance,True,False
+D00692,F04,R00692,Commercial / other,"Home, outpatient dialysis",Dialysis,2026-10-19 08:00:00,2026-10-20,2026-10-21,Discharged,1,1,Awaiting partner acceptance,True,False
+D00693,F04,R00693,Medicare Advantage,Home with DME only,DME,2026-10-19 08:00:00,2026-10-20,2026-10-23,Discharged,2,3,Awaiting DME delivery,True,False
+D00694,F04,R00694,Medicare Advantage,Assisted living with home health,Home Health,2026-10-20 11:37:00,2026-10-21,2026-10-31,Discharged,2,10,Awaiting partner acceptance,True,False
+D00695,F04,R00695,Medicare Part A,Transfer to long-term care,Skilled Nursing,2026-10-19 08:00:00,2026-10-21,2026-10-22,Discharged,1,1,Awaiting partner acceptance,True,
+D00696,F04,R00696,Medicare Part A,Home with home health,Home Health; DME,2026-10-19 14:46:00,2026-10-22,2026-10-23,Discharged,1,1,Awaiting DME delivery,True,False
+D00697,F04,R00697,Medicare Part A,"Home, outpatient dialysis",Dialysis,2026-10-21 15:37:00,2026-10-22,2026-10-24,Discharged,1,2,Awaiting partner acceptance,True,False
+D00698,F04,R00698,Medicare Part A,Home with hospice,Hospice,2026-10-23 08:05:00,2026-10-26,2026-10-26,Discharged,0,0,,True,False
+D00699,F04,R00699,Medicare Advantage,Home with home health,Home Health,2026-10-26 08:00:00,2026-10-26,2026-10-26,Cancelled (hospital transfer),0,,,True,
+D00700,F04,R00700,Medicare Part A,"Home, outpatient dialysis",Dialysis,2026-10-23 11:17:00,2026-10-29,2026-10-29,Discharged,0,0,,True,False
+D00701,F04,R00701,Medicare Advantage,Home with DME only,DME,2026-10-26 11:28:00,2026-10-31,2026-10-31,Discharged,0,0,,True,False
+D00702,F04,R00702,Commercial / other,Home with home health,Home Health,2026-10-28 10:58:00,2026-11-01,2026-11-01,Discharged,0,0,,True,False
+D00703,F04,R00703,Medicare Part A,Home with DME only,DME,2026-11-02 08:00:00,2026-11-02,2026-11-05,Discharged,2,3,Awaiting partner acceptance,True,False
+D00704,F04,R00704,Medicare Part A,Home with home health,Home Health,2026-10-29 12:16:00,2026-11-02,2026-11-02,Discharged,0,0,,True,False
+D00705,F04,R00705,Medicare Advantage,Home with hospice,Hospice,2026-10-28 15:02:00,2026-11-03,2026-11-03,Discharged,0,0,,True,False
+D00706,F04,R00706,Medicare Part A,Home with home health,Home Health,2026-11-02 08:00:00,2026-11-03,2026-11-04,Discharged,1,1,Awaiting partner acceptance,True,False
+D00707,F04,R00707,Medicare Part A,Home with home health,Home Health; DME,2026-11-02 13:58:00,2026-11-04,2026-11-04,Discharged,0,0,,True,False
+D00708,F04,R00708,Medicare Part A,Home with home health,Home Health,2026-11-09 11:37:00,2026-11-11,2026-11-11,Discharged,0,0,,True,False
+D00709,F04,R00709,Commercial / other,Home with DME only,DME,2026-11-09 08:00:00,2026-11-11,2026-11-12,Discharged,1,1,Awaiting DME delivery,True,False
+D00710,F04,R00710,Medicare Part A,Home with DME only,DME,2026-11-09 15:34:00,2026-11-12,2026-11-14,Discharged,1,2,Awaiting DME delivery,True,False
+D00711,F04,R00711,Medicare Part A,Home with home health,Home Health; DME,2026-11-11 08:32:00,2026-11-14,2026-11-14,Discharged,0,0,,True,False
+D00712,F04,R00712,Medicaid,Home with DME only,DME,2026-11-12 15:48:00,2026-11-16,2026-11-17,Discharged,1,1,Awaiting DME delivery,True,False
+D00713,F04,R00713,Commercial / other,Home with hospice,Hospice,2026-11-10 10:03:00,2026-11-16,2026-11-16,Discharged,0,0,,True,False
+D00714,F04,R00714,Medicare Advantage,Home with DME only,DME,2026-11-16 08:00:00,2026-11-20,2026-11-23,Discharged,1,3,Payer authorization pending,True,True
+D00715,F04,R00715,Medicare Advantage,Home with hospice,Hospice; DME,2026-11-19 15:55:00,2026-11-20,2026-11-24,Discharged,1,4,Awaiting partner acceptance,True,False
+D00716,F04,R00716,Medicare Advantage,"Home, outpatient dialysis",Dialysis,2026-11-19 12:30:00,2026-11-20,2026-11-25,Discharged,1,5,Awaiting partner acceptance,True,False
+D00717,F04,R00717,Medicaid,Home with home health,Home Health,2026-11-18 08:14:00,2026-11-22,2026-11-22,Discharged,0,0,,True,False
+D00718,F04,R00718,Medicare Part A,Home with home health,Home Health,2026-11-20 14:49:00,2026-11-23,2026-11-25,Discharged,1,2,Awaiting partner acceptance,True,False
+D00719,F04,R00719,Commercial / other,Transfer to long-term care,Skilled Nursing,2026-11-23 09:20:00,2026-11-24,2026-11-25,Discharged,1,1,Awaiting partner acceptance,True,
+D00720,F04,R00720,Medicare Advantage,Home with DME only,DME,2026-11-23 08:00:00,2026-11-24,2026-11-24,Discharged,0,0,,True,False
+D00721,F04,R00721,Medicare Advantage,Home with home health,Home Health,2026-11-19 13:55:00,2026-11-25,2026-11-25,Discharged,0,0,,True,False
+D00722,F04,R00722,Medicare Part A,Home with DME only,DME,2026-11-23 08:00:00,2026-11-25,2026-11-25,Discharged,0,0,,True,False
+D00723,F04,R00723,Medicare Advantage,"Home, outpatient dialysis",Dialysis; Home Health,2026-11-25 14:44:00,2026-11-26,2026-11-27,Discharged,1,1,Awaiting partner acceptance,True,False
+D00724,F04,R00724,Medicare Part A,Transfer to LTACH,LTACH,2026-11-24 10:26:00,2026-11-27,2026-11-27,Discharged,0,0,,True,
+D00725,F04,R00725,Medicaid,Home with DME only,DME,2026-11-30 08:00:00,2026-11-29,2026-12-03,Discharged,2,4,Awaiting partner acceptance,True,False
+D00726,F04,R00726,Medicare Part A,Home with home health,Home Health,2026-11-30 08:46:00,2026-12-01,2026-12-02,Discharged,1,1,Awaiting partner acceptance,True,False
+D00727,F04,R00727,Medicare Part A,Home with home health,Home Health; DME,2026-11-27 09:13:00,2026-12-02,2026-12-02,Discharged,0,0,,True,False
+D00728,F04,R00728,Medicare Part A,Home with home health,Home Health,2026-11-30 08:00:00,2026-12-02,2026-12-04,Discharged,1,2,Resident / family not ready,True,False
+D00729,F04,R00729,Medicare Part A,Home with home health,Home Health,2026-12-07 08:00:00,2026-12-07,2026-12-09,Discharged,1,2,Awaiting partner acceptance,True,False
+D00730,F04,R00730,Medicare Advantage,Home with DME only,DME,2026-12-07 08:48:00,2026-12-08,2026-12-12,Discharged,2,4,Awaiting partner acceptance,True,False
+D00731,F04,R00731,Medicare Part A,Home with home health,Home Health,2026-12-07 13:26:00,2026-12-10,2026-12-14,Discharged,1,4,Clinical status change,True,False
+D00732,F04,R00732,Medicare Advantage,Home with home health,Home Health; DME,2026-12-07 08:00:00,2026-12-10,2026-12-18,Discharged,1,8,Awaiting partner acceptance,True,False
+D00733,F04,R00733,Medicare Part A,Home with home health,Home Health,2026-12-09 14:45:00,2026-12-10,2026-12-14,Discharged,1,4,Awaiting partner acceptance,True,False
+D00734,F04,R00734,Medicare Advantage,Home with home health,Home Health,2026-12-09 15:35:00,2026-12-11,2026-12-12,Discharged,1,1,Payer authorization pending,True,True
+D00735,F04,R00735,Medicaid,Home with home health,Home Health; DME,2026-12-11 10:18:00,2026-12-12,2026-12-14,Discharged,1,2,Awaiting partner acceptance,True,False
+D00736,F04,R00736,Medicare Part A,Home with home health,Home Health,2026-12-15 10:18:00,2026-12-17,2026-12-17,Discharged,0,0,,True,False
+D00737,F04,R00737,Medicare Advantage,Transfer to LTACH,LTACH,2026-12-15 11:07:00,2026-12-17,2026-12-20,Discharged,2,3,Awaiting partner acceptance,True,
+D00738,F04,R00738,Medicaid,Home with home health,Home Health; DME,2026-12-14 08:00:00,2026-12-18,2026-12-20,Discharged,1,2,Payer authorization pending,True,False
+D00739,F04,R00739,Medicare Part A,Transfer to LTACH,LTACH,2026-12-15 15:38:00,2026-12-18,2026-12-18,Discharged,0,0,,True,
+D00740,F04,R00740,Medicaid,Transfer to long-term care,Skilled Nursing,2026-12-16 15:24:00,2026-12-22,2026-12-29,Discharged,1,7,Awaiting partner acceptance,True,
+D00741,F04,R00741,Medicaid,Home with DME only,DME,2026-12-18 11:40:00,2026-12-22,2026-12-23,Discharged,1,1,Awaiting DME delivery,True,False
+D00742,F04,R00742,Medicare Part A,Home with home health,Home Health,2026-12-16 11:56:00,2026-12-22,2026-12-22,Discharged,0,0,,True,False
+D00743,F04,R00743,Medicaid,Home with DME only,DME,2026-12-21 13:57:00,2026-12-23,2026-12-27,Discharged,2,4,Awaiting DME delivery,True,False
+D00744,F04,R00744,Commercial / other,Home with home health,Home Health; DME,2026-12-22 08:29:00,2026-12-24,2026-12-24,Discharged,0,0,,True,False
+D00745,F04,R00745,Medicaid,Home with home health,Home Health,2026-12-21 12:09:00,2026-12-24,2027-01-01,Discharged,1,8,Awaiting partner acceptance,True,False
+D00746,F04,R00746,Medicare Part A,Home with hospice,Hospice; DME,2026-12-23 13:39:00,2026-12-25,2026-12-25,Discharged,0,0,,True,False
+D00747,F04,R00747,Medicare Part A,Transfer to long-term care,Skilled Nursing,2026-12-21 11:16:00,2026-12-26,2026-12-29,Discharged,1,3,Awaiting partner acceptance,True,
+D00748,F04,R00748,Medicare Part A,Transfer to long-term care,Skilled Nursing,2026-12-28 08:00:00,2026-12-28,2027-01-01,Discharged,1,4,Awaiting partner acceptance,True,
+D00749,F04,R00749,Medicare Advantage,Home with home health,Home Health; DME,2026-12-28 08:00:00,2026-12-28,2026-12-31,Discharged,1,3,Awaiting partner acceptance,True,False
+D00750,F04,R00750,Medicare Part A,Assisted living with home health,Home Health,2026-12-23 15:51:00,2026-12-28,2026-12-28,Discharged,0,0,,True,False
+D00751,F04,R00751,Medicare Advantage,Home with hospice,Hospice,2026-12-28 08:00:00,2026-12-29,2026-12-29,Discharged,0,0,,True,False
+D00752,F04,R00752,Medicaid,Assisted living with home health,Home Health,2026-12-28 10:01:00,2026-12-30,2026-12-31,Discharged,1,1,Resident / family not ready,True,False
+D00753,F04,R00753,Medicaid,Assisted living with home health,Home Health,2026-12-28 08:00:00,2026-12-31,2026-12-31,Discharged,0,0,,True,False
+D00754,F04,R00754,Medicare Advantage,Transfer to long-term care,Skilled Nursing,2026-12-28 08:00:00,2026-12-31,2027-01-02,Discharged,1,2,Clinical status change,True,
+D00755,F04,R00755,Commercial / other,Home with home health,Home Health,2026-12-30 13:49:00,2027-01-01,2027-01-01,Discharged,0,0,,True,False
+D00756,F04,R00756,Medicaid,Home with home health,Home Health,2027-01-01 08:23:00,2027-01-04,2027-01-06,Discharged,2,2,Awaiting partner acceptance,True,False
+D00757,F04,R00757,Medicaid,Home with hospice,Hospice; DME,2027-01-04 08:04:00,2027-01-05,2027-01-07,Discharged,1,2,Awaiting partner acceptance,True,False
+D00758,F04,R00758,Medicare Part A,Home with home health,Home Health,2027-01-04 12:26:00,2027-01-06,2027-01-06,Discharged,0,0,,True,False
+D00759,F04,R00759,Medicaid,Home with home health,Home Health; DME,2027-01-04 11:42:00,2027-01-07,2027-01-07,Discharged,0,0,,True,False
+D00760,F04,R00760,Medicare Advantage,Home with DME only,DME,2027-01-04 08:00:00,2027-01-07,2027-01-07,Discharged,0,0,,True,False
+D00761,F04,R00761,Medicaid,Home with home health,Home Health,2027-01-04 15:17:00,2027-01-08,2027-01-08,Discharged,0,0,,True,False
+D00762,F04,R00762,Medicare Part A,Home with DME only,DME,2027-01-04 08:00:00,2027-01-08,2027-01-08,Discharged,0,0,,True,False
+D00763,F04,R00763,Medicare Part A,Home with home health,Home Health,2027-01-06 10:10:00,2027-01-08,2027-01-08,Discharged,0,0,,True,False
+D00764,F04,R00764,Medicaid,Home with home health,Home Health,2027-01-04 08:00:00,2027-01-08,2027-01-08,Discharged,0,0,,True,False
+D00765,F04,R00765,Medicare Advantage,Home with home health,Home Health,2027-01-05 14:54:00,2027-01-09,2027-01-09,Discharged,0,0,,True,False
+D00766,F04,R00766,Medicaid,Home with home health,Home Health,2027-01-11 08:00:00,2027-01-12,2027-01-12,Discharged,0,0,,True,False
+D00767,F04,R00767,Medicare Part A,Home with DME only,DME,2027-01-11 08:00:00,2027-01-13,2027-01-15,Discharged,1,2,Awaiting partner acceptance,True,False
+D00768,F04,R00768,Medicare Part A,Home with hospice,Hospice,2027-01-14 10:50:00,2027-01-15,2027-01-16,Discharged,1,1,Payer authorization pending,True,False
+D00769,F04,R00769,Medicare Part A,Home with home health,Home Health,2027-01-13 14:52:00,2027-01-15,2027-01-17,Discharged,1,2,Resident / family not ready,True,False
+D00770,F04,R00770,Medicare Advantage,Home with home health,Home Health; DME,2027-01-14 08:03:00,2027-01-15,2027-01-17,Discharged,2,2,Awaiting DME delivery,True,False
+D00771,F04,R00771,Medicaid,Assisted living with home health,Home Health,2027-01-18 10:43:00,2027-01-20,2027-01-20,Discharged,0,0,,True,False
+D00772,F04,R00772,Medicare Advantage,Home with home health,Home Health,2027-01-18 08:31:00,2027-01-21,2027-01-21,Discharged,0,0,,True,False
+D00773,F04,R00773,Medicare Part A,Home with home health,Home Health,2027-01-18 08:00:00,2027-01-21,2027-01-21,Discharged,0,0,,True,False
+D00774,F04,R00774,Medicare Advantage,Assisted living with home health,Home Health,2027-01-18 08:00:00,2027-01-21,2027-01-26,Discharged,1,5,Awaiting partner acceptance,True,False
+D00775,F04,R00775,Medicare Part A,Home with home health,Home Health; DME,2027-01-19 09:21:00,2027-01-22,2027-01-22,Discharged,0,0,,True,False
+D00776,F04,R00776,Medicaid,Home with DME only,DME,2027-01-22 09:21:00,2027-01-25,2027-01-26,Discharged,1,1,Awaiting DME delivery,True,False
+D00777,F04,R00777,Medicare Part A,Home with hospice,Hospice; DME,2027-01-25 08:00:00,2027-01-26,2027-01-26,Discharged,0,0,,True,False
+D00778,F04,R00778,Medicare Part A,Home with DME only,DME,2027-01-25 12:02:00,2027-01-27,2027-01-27,Discharged,0,0,,True,False
+D00779,F04,R00779,Medicare Part A,Home with home health,Home Health,2027-01-25 15:56:00,2027-01-27,2027-01-27,Discharged,0,0,,True,False
+D00780,F04,R00780,Medicare Part A,Home with hospice,Hospice; DME,2027-01-27 12:51:00,2027-01-30,2027-01-30,Cancelled (hospital transfer),0,,,True,
+D00781,F04,R00781,Medicare Advantage,Assisted living with home health,Home Health,2027-01-28 08:37:00,2027-02-01,2027-02-01,Discharged,0,0,,True,False
+D00782,F04,R00782,Medicare Advantage,Assisted living with home health,Home Health,2027-02-01 08:00:00,2027-02-02,2027-02-03,Discharged,1,1,Payer authorization pending,True,False
+D00783,F04,R00783,Medicare Part A,Home with home health,Home Health,2027-02-02 10:35:00,2027-02-04,2027-02-04,Discharged,0,0,,True,False
+D00784,F04,R00784,Medicare Part A,Home with home health,Home Health,2027-02-03 11:42:00,2027-02-04,2027-02-05,Discharged,1,1,Awaiting partner acceptance,True,False
+D00785,F04,R00785,Medicare Advantage,Assisted living with home health,Home Health,2027-02-03 08:40:00,2027-02-04,2027-02-11,Discharged,1,7,Awaiting partner acceptance,True,False
+D00786,F04,R00786,Medicaid,Home with home health,Home Health; DME,2027-02-05 11:32:00,2027-02-08,2027-02-11,Discharged,1,3,Awaiting partner acceptance,True,False
+D00787,F04,R00787,Medicaid,Home with home health,Home Health,2027-02-08 08:00:00,2027-02-08,2027-02-10,Discharged,1,2,Awaiting partner acceptance,True,False
+D00788,F04,R00788,Commercial / other,Home with home health,Home Health; DME,2027-02-04 15:07:00,2027-02-09,2027-02-09,Discharged,0,0,,True,False
+D00789,F04,R00789,Medicare Advantage,"Home, outpatient dialysis",Dialysis,2027-02-08 08:00:00,2027-02-10,2027-02-10,Discharged,0,0,,True,False
+D00790,F04,R00790,Medicare Advantage,"Home, outpatient dialysis",Dialysis; Home Health,2027-02-09 11:41:00,2027-02-10,2027-02-16,Discharged,1,6,Awaiting partner acceptance,True,False
+D00791,F04,R00791,Medicare Advantage,Home with hospice,Hospice; DME,2027-02-08 08:00:00,2027-02-10,2027-02-10,Discharged,0,0,,True,False
+D00792,F04,R00792,Medicare Part A,"Home, outpatient dialysis",Dialysis; Home Health,2027-02-10 09:19:00,2027-02-11,2027-02-12,Discharged,1,1,Awaiting partner acceptance,True,False
+D00793,F04,R00793,Medicaid,Assisted living with home health,Home Health,2027-02-08 11:51:00,2027-02-11,2027-02-12,Discharged,1,1,Awaiting partner acceptance,True,False
+D00794,F04,R00794,Medicare Part A,Home with home health,Home Health,2027-02-09 13:10:00,2027-02-11,2027-02-11,Discharged,0,0,,True,False
+D00795,F04,R00795,Commercial / other,Transfer to long-term care,Skilled Nursing,2027-02-08 08:00:00,2027-02-11,2027-02-12,Discharged,1,1,Awaiting partner acceptance,True,
+D00796,F04,R00796,Medicaid,Home with home health,Home Health; DME,2027-02-11 08:54:00,2027-02-12,2027-02-15,Discharged,1,3,Awaiting partner acceptance,True,True
+D00797,F04,R00797,Medicaid,Home with home health,Home Health,2027-02-08 08:00:00,2027-02-12,2027-02-12,Discharged,0,0,,True,False
+D00798,F04,R00798,Medicaid,Home with home health,Home Health,2027-02-11 08:23:00,2027-02-12,2027-02-19,Discharged,2,7,Awaiting partner acceptance,True,False
+D00799,F04,R00799,Medicare Advantage,Home with DME only,DME,2027-02-11 13:29:00,2027-02-12,2027-02-12,Cancelled (hospital transfer),0,,,True,
+D00800,F04,R00800,Medicare Advantage,"Home, outpatient dialysis",Dialysis,2027-02-11 11:26:00,2027-02-12,2027-02-13,Discharged,1,1,Awaiting partner acceptance,True,False
+D00801,F04,R00801,Medicare Advantage,Home with home health,Home Health,2027-02-11 14:24:00,2027-02-12,2027-02-23,Discharged,2,11,Awaiting partner acceptance,True,False
+D00802,F04,R00802,Medicare Part A,Home with DME only,DME,2027-02-08 08:00:00,2027-02-13,2027-02-15,Discharged,1,2,Payer authorization pending,True,False
+D00803,F04,R00803,Medicaid,Home with home health,Home Health,2027-02-15 08:00:00,2027-02-16,2027-02-28,Discharged,1,12,No partner accepted,False,False
+D00804,F04,R00804,Medicaid,Home with DME only,DME,2027-02-11 09:47:00,2027-02-16,2027-02-17,Discharged,1,1,Awaiting DME delivery,True,False
+D00805,F04,R00805,Medicare Advantage,Home with DME only,DME,2027-02-15 08:00:00,2027-02-17,2027-02-17,Discharged,0,0,,True,False
+D00806,F04,R00806,Medicare Part A,Home with DME only,DME,2027-02-16 14:27:00,2027-02-18,2027-02-18,Discharged,0,0,,True,False
+D00807,F04,R00807,Medicare Advantage,Assisted living with home health,Home Health,2027-02-22 11:47:00,2027-02-25,2027-02-27,Discharged,1,2,Awaiting partner acceptance,True,False
+D00808,F04,R00808,Medicare Advantage,Home with hospice,Hospice; DME,2027-02-22 08:38:00,2027-02-26,2027-02-26,Discharged,0,0,,True,False
+D00809,F04,R00809,Commercial / other,Transfer to LTACH,LTACH,2027-02-22 15:30:00,2027-02-27,2027-02-27,Discharged,0,0,,True,
+D00810,F04,R00810,Commercial / other,Home with home health,Home Health,2027-02-26 13:13:00,2027-02-28,2027-03-06,Discharged,1,6,Awaiting partner acceptance,True,False
+D00811,F04,R00811,Medicare Part A,Home with home health,Home Health,2027-02-26 15:37:00,2027-02-28,2027-03-01,Discharged,1,1,Awaiting partner acceptance,True,False
+D00812,F04,R00812,Medicaid,Home with home health,Home Health,2027-02-26 13:20:00,2027-02-28,2027-02-28,Discharged,0,0,,True,False
+D00813,F04,R00813,Medicare Part A,Transfer to LTACH,LTACH,2027-03-01 08:00:00,2027-03-01,2027-03-03,Discharged,1,2,Awaiting partner acceptance,True,
+D00814,F04,R00814,Medicare Advantage,Home with hospice,Hospice; DME,2027-03-01 13:03:00,2027-03-02,2027-03-06,Discharged,2,4,Awaiting partner acceptance,True,False
+D00815,F04,R00815,Medicare Advantage,Home with DME only,DME,2027-03-01 08:00:00,2027-03-02,2027-03-02,Discharged,0,0,,True,True
+D00816,F04,R00816,Medicare Part A,Home with home health,Home Health,2027-03-01 08:00:00,2027-03-03,2027-03-03,Discharged,0,0,,True,False
+D00817,F04,R00817,Medicare Advantage,Home with DME only,DME,2027-03-02 10:20:00,2027-03-05,2027-03-11,Discharged,2,6,Awaiting partner acceptance,True,
+D00818,F04,R00818,Medicare Advantage,"Home, outpatient dialysis",Dialysis,2027-03-04 08:38:00,2027-03-05,2027-03-05,Discharged,0,0,,True,False
+D00819,F04,R00819,Medicaid,Assisted living with home health,Home Health,2027-03-08 08:00:00,2027-03-08,2027-03-11,Discharged,2,3,Awaiting partner acceptance,True,
+D00820,F04,R00820,Medicaid,Home with DME only,DME,2027-03-03 14:19:00,2027-03-08,2027-03-09,Discharged,1,1,Resident / family not ready,True,False
+D00821,F04,R00821,Medicare Part A,Home with home health,Home Health; DME,2027-03-05 10:46:00,2027-03-08,2027-03-10,Discharged,1,2,Awaiting partner acceptance,True,False
+D00822,F04,R00822,Medicare Advantage,Home with home health,Home Health; DME,2027-03-08 08:00:00,2027-03-09,2027-03-16,Discharged,1,7,Awaiting partner acceptance,True,
+D00823,F04,R00823,Commercial / other,Home with DME only,DME,2027-03-08 11:57:00,2027-03-10,2027-03-10,Discharged,0,0,,True,True
+D00824,F04,R00824,Medicare Advantage,Home with home health,Home Health; DME,2027-03-08 10:17:00,2027-03-10,2027-03-16,Discharged,1,6,Awaiting partner acceptance,True,
+D00825,F04,R00825,Medicare Part A,Assisted living with home health,Home Health,2027-03-05 09:54:00,2027-03-11,2027-03-11,Discharged,0,0,,True,
+D00826,F04,R00826,Commercial / other,Home with home health,Home Health,2027-03-08 10:15:00,2027-03-11,2027-03-11,Discharged,0,0,,True,
+D00827,F04,R00827,Medicaid,Home with home health,Home Health,2027-03-11 15:43:00,2027-03-13,2027-03-13,Cancelled (hospital transfer),0,,,True,
+D00828,F04,R00828,Medicare Part A,Transfer to long-term care,Skilled Nursing,2027-03-10 14:38:00,2027-03-13,2027-03-16,Discharged,2,3,Resident / family not ready,True,
+D00829,F04,R00829,Medicare Advantage,Home with home health,Home Health; DME,2027-03-15 08:00:00,2027-03-15,2027-03-17,Discharged,1,2,Awaiting partner acceptance,True,
+D00830,F04,R00830,Medicare Part A,Home with hospice,Hospice; DME,2027-03-15 08:00:00,2027-03-15,2027-03-17,Discharged,1,2,Awaiting partner acceptance,True,
+D00831,F04,R00831,Medicare Advantage,Home with home health,Home Health; DME,2027-03-15 08:00:00,2027-03-17,2027-03-17,Discharged,0,0,,True,
+D00832,F04,R00832,Medicare Advantage,Home with home health,Home Health; DME,2027-03-22 08:00:00,2027-03-23,2027-03-26,Discharged,1,3,Awaiting partner acceptance,True,
+D00833,F04,R00833,Medicare Advantage,Home with hospice,Hospice,2027-03-22 08:00:00,2027-03-23,2027-03-24,Discharged,1,1,Payer authorization pending,True,
+D00834,F04,R00834,Medicare Part A,Home with home health,Home Health; DME,2027-03-22 13:59:00,2027-03-24,2027-03-27,Discharged,1,3,Awaiting partner acceptance,True,
+D00835,F04,R00835,Medicare Part A,Home with home health,Home Health,2027-03-22 08:00:00,2027-03-25,2027-03-25,Discharged,0,0,,True,
+D00836,F04,R00836,Commercial / other,Home with home health,Home Health,2027-03-23 09:44:00,2027-03-25,2027-03-25,Discharged,0,0,,True,
+D00837,F04,R00837,Medicare Part A,"Home, outpatient dialysis",Dialysis; Home Health,2027-03-26 09:49:00,2027-03-27,2027-03-29,Discharged,1,2,Awaiting partner acceptance,True,
+D00838,F04,R00838,Medicare Part A,Home with hospice,Hospice; DME,2027-03-29 08:00:00,2027-03-29,2027-03-31,Discharged,1,2,Awaiting partner acceptance,True,
+D00839,F04,R00839,Medicare Part A,Transfer to long-term care,Skilled Nursing,2027-03-29 09:03:00,2027-03-30,2027-04-01,Discharged,1,2,Awaiting partner acceptance,True,
+D00840,F04,R00840,Medicare Advantage,Home with home health,Home Health,2027-03-30 09:43:00,2027-03-31,2027-03-31,Discharged,0,0,,True,
+D00841,F04,R00841,Medicare Part A,Home with home health,Home Health,2027-03-30 14:21:00,2027-03-31,2027-04-02,Discharged,1,2,Awaiting partner acceptance,True,
+D00842,F04,R00842,Medicaid,Home with hospice,Hospice,2027-03-29 08:00:00,2027-04-01,2027-04-01,Discharged,0,0,,True,
+D00843,F04,R00843,Medicare Part A,"Home, outpatient dialysis",Dialysis,2027-04-01 11:03:00,2027-04-02,2027-04-08,Discharged,1,6,Awaiting partner acceptance,True,
+D00844,F04,R00844,Medicare Part A,"Home, outpatient dialysis",Dialysis; Home Health,2027-04-02 12:49:00,2027-04-03,2027-04-07,Discharged,1,4,Awaiting partner acceptance,True,
+D00845,F04,R00845,Medicare Advantage,Home with home health,Home Health,2027-04-02 08:03:00,2027-04-03,2027-04-09,Discharged,1,6,Awaiting partner acceptance,True,
+D00846,F04,R00846,Commercial / other,Home with home health,Home Health,2027-03-31 14:48:00,2027-04-03,2027-04-03,Discharged,0,0,,True,
+D00847,F04,R00847,Medicaid,Home with home health,Home Health,2027-04-05 08:00:00,2027-04-04,2027-04-07,Discharged,1,3,Awaiting partner acceptance,True,
+D00848,F04,R00848,Medicare Advantage,Home with DME only,DME,2027-04-02 08:44:00,2027-04-04,2027-04-06,Discharged,1,2,Awaiting partner acceptance,True,
+D00849,F04,R00849,Medicare Advantage,Home with DME only,DME,2027-04-01 14:15:00,2027-04-05,2027-04-05,Cancelled (hospital transfer),0,,,True,
+D00850,F04,R00850,Medicare Advantage,Home with DME only,DME,2027-04-05 08:00:00,2027-04-06,2027-04-07,Discharged,1,1,Awaiting DME delivery,True,
+D00851,F04,R00851,Medicaid,Home with home health,Home Health,2027-04-05 12:45:00,2027-04-07,2027-04-08,Discharged,1,1,Resident / family not ready,True,
+D00852,F04,R00852,Medicaid,Home with DME only,DME,2027-04-05 11:39:00,2027-04-09,2027-04-09,Discharged,0,0,,True,
+D00853,F04,R00853,Medicare Advantage,"Home, outpatient dialysis",Dialysis; Home Health,2027-04-05 08:00:00,2027-04-10,2027-04-11,Upcoming,1,1,Payer authorization pending,True,
+D00854,F04,R00854,Medicare Part A,"Home, outpatient dialysis",Dialysis,2027-04-07 11:02:00,2027-04-11,2027-04-11,Upcoming,0,0,,True,
+D00862,F05,R00862,Medicare Part A,Home with home health,Home Health,2026-10-12 14:44:00,2026-10-16,2026-10-20,Discharged,1,4,Awaiting partner acceptance,True,False
+D00863,F05,R00863,Medicaid,Home with home health,Home Health,2026-10-20 14:08:00,2026-10-23,2026-10-25,Discharged,1,2,Resident / family not ready,True,False
+D00864,F05,R00864,Medicare Part A,Home with DME only,DME,2026-10-19 08:00:00,2026-10-23,2026-10-23,Discharged,0,0,,True,False
+D00865,F05,R00865,Medicaid,Home with home health,Home Health,2026-10-19 09:26:00,2026-10-24,2026-10-28,Discharged,2,4,Payer authorization pending,True,False
+D00866,F05,R00866,Medicaid,Assisted living with home health,Home Health,2026-10-26 10:02:00,2026-10-28,2026-10-30,Discharged,1,2,Awaiting partner acceptance,True,False
+D00867,F05,R00867,Medicare Advantage,Home with home health,Home Health,2026-10-26 08:00:00,2026-10-29,2026-10-30,Discharged,1,1,Payer authorization pending,True,False
+D00868,F05,R00868,Medicare Part A,Home with DME only,DME,2026-10-26 08:00:00,2026-10-29,2026-10-29,Discharged,0,0,,True,False
+D00869,F05,R00869,Medicare Part A,Home with home health,Home Health,2026-10-26 08:00:00,2026-10-30,2026-10-30,Discharged,0,0,,True,False
+D00870,F05,R00870,Medicare Advantage,Home with hospice,Hospice,2026-10-26 15:27:00,2026-10-30,2026-10-30,Discharged,0,0,,True,False
+D00871,F05,R00871,Medicare Part A,Home with home health,Home Health,2026-10-26 12:04:00,2026-10-30,2026-10-30,Discharged,0,0,,True,False
+D00872,F05,R00872,Medicare Part A,"Home, outpatient dialysis",Dialysis,2026-10-29 15:57:00,2026-10-30,2026-11-03,Discharged,1,4,Awaiting partner acceptance,True,False
+D00873,F05,R00873,Medicare Advantage,Assisted living with home health,Home Health,2026-10-26 08:00:00,2026-10-30,2026-10-30,Discharged,0,0,,True,False
+D00874,F05,R00874,Medicare Part A,Home with home health,Home Health; DME,2026-10-30 09:57:00,2026-11-02,2026-11-04,Discharged,1,2,Awaiting partner acceptance,True,False
+D00875,F05,R00875,Medicare Advantage,Home with home health,Home Health; DME,2026-10-29 12:04:00,2026-11-02,2026-11-03,Discharged,1,1,Awaiting partner acceptance,True,False
+D00876,F05,R00876,Medicare Advantage,Home with DME only,DME,2026-10-30 08:57:00,2026-11-03,2026-11-03,Discharged,0,0,,True,False
+D00877,F05,R00877,Medicare Part A,Assisted living with home health,Home Health,2026-11-02 08:00:00,2026-11-05,2026-11-05,Discharged,0,0,,True,False
+D00878,F05,R00878,Commercial / other,Home with home health,Home Health,2026-11-02 08:00:00,2026-11-05,2026-11-05,Discharged,0,0,,True,False
+D00879,F05,R00879,Commercial / other,Home with home health,Home Health,2026-11-02 08:00:00,2026-11-05,2026-11-05,Cancelled (hospital transfer),0,,,True,
+D00880,F05,R00880,Medicare Part A,Transfer to long-term care,Skilled Nursing,2026-11-03 08:31:00,2026-11-06,2026-11-06,Discharged,0,0,,True,
+D00881,F05,R00881,Medicare Part A,Transfer to LTACH,LTACH,2026-11-02 12:02:00,2026-11-06,2026-11-06,Discharged,0,0,,True,
+D00882,F05,R00882,Medicare Advantage,Home with home health,Home Health,2026-11-02 08:12:00,2026-11-07,2026-11-07,Discharged,0,0,,True,False
+D00883,F05,R00883,Medicare Part A,Home with home health,Home Health; DME,2026-11-06 11:39:00,2026-11-09,2026-11-11,Discharged,2,2,Awaiting partner acceptance,True,False
+D00884,F05,R00884,Medicare Advantage,Assisted living with home health,Home Health,2026-11-06 10:44:00,2026-11-10,2026-11-10,Discharged,0,0,,True,False
+D00885,F05,R00885,Medicare Advantage,Home with hospice,Hospice; DME,2026-11-09 09:32:00,2026-11-12,2026-11-14,Discharged,1,2,Clinical status change,True,False
+D00886,F05,R00886,Medicare Part A,Home with home health,Home Health; DME,2026-11-06 08:57:00,2026-11-12,2026-11-12,Discharged,0,0,,True,False
+D00887,F05,R00887,Medicare Part A,Home with home health,Home Health,2026-11-09 08:00:00,2026-11-14,2026-11-14,Discharged,0,0,,True,False
+D00888,F05,R00888,Medicare Advantage,Home with home health,Home Health; DME,2026-11-12 09:35:00,2026-11-16,2026-11-18,Discharged,1,2,Awaiting partner acceptance,True,False
+D00889,F05,R00889,Medicaid,Home with home health,Home Health,2026-11-12 11:10:00,2026-11-16,2026-11-16,Cancelled (hospital transfer),0,,,True,
+D00890,F05,R00890,Medicare Part A,"Home, outpatient dialysis",Dialysis; Home Health,2026-11-16 12:58:00,2026-11-19,2026-11-21,Discharged,1,2,Resident / family not ready,True,False
+D00891,F05,R00891,Commercial / other,Assisted living with home health,Home Health,2026-11-16 08:00:00,2026-11-19,2026-11-19,Cancelled (hospital transfer),0,,,True,
+D00892,F05,R00892,Medicare Part A,"Home, outpatient dialysis",Dialysis,2026-11-17 08:43:00,2026-11-19,2026-11-19,Discharged,0,0,,True,True
+D00893,F05,R00893,Medicare Advantage,Home with home health,Home Health,2026-11-18 14:19:00,2026-11-20,2026-11-23,Discharged,1,3,Payer authorization pending,True,False
+D00894,F05,R00894,Commercial / other,Assisted living with home health,Home Health,2026-11-16 09:48:00,2026-11-21,2026-11-21,Discharged,0,0,,True,False
+D00895,F05,R00895,Medicare Part A,Home with DME only,DME,2026-11-17 09:33:00,2026-11-23,2026-11-23,Discharged,0,0,,True,True
+D00896,F05,R00896,Medicare Part A,Home with home health,Home Health,2026-11-17 13:26:00,2026-11-23,2026-11-24,Discharged,1,1,Clinical status change,True,False
+D00897,F05,R00897,Commercial / other,Home with home health,Home Health,2026-11-24 11:39:00,2026-11-30,2026-11-30,Discharged,0,0,,True,False
+D00898,F05,R00898,Medicare Part A,Home with home health,Home Health,2026-11-30 08:00:00,2026-12-01,2026-12-02,Discharged,1,1,Awaiting partner acceptance,True,False
+D00899,F05,R00899,Medicare Advantage,Home with home health,Home Health,2026-11-27 08:34:00,2026-12-03,2026-12-03,Discharged,0,0,,True,False
+D00900,F05,R00900,Medicare Advantage,Home with home health,Home Health; DME,2026-12-02 12:51:00,2026-12-04,2026-12-11,Discharged,2,7,Awaiting partner acceptance,True,False
+D00901,F05,R00901,Medicare Advantage,Transfer to LTACH,LTACH,2026-12-03 08:07:00,2026-12-04,2026-12-06,Discharged,2,2,Awaiting partner acceptance,True,
+D00902,F05,R00902,Medicare Part A,Home with home health,Home Health,2026-12-03 12:49:00,2026-12-06,2026-12-06,Discharged,0,0,,True,False
+D00903,F05,R00903,Medicare Part A,Home with DME only,DME,2026-12-04 09:54:00,2026-12-08,2026-12-08,Discharged,0,0,,True,False
+D00904,F05,R00904,Medicare Advantage,Home with home health,Home Health,2026-12-07 08:00:00,2026-12-09,2026-12-09,Discharged,0,0,,True,False
+D00905,F05,R00905,Commercial / other,Assisted living with home health,Home Health,2026-12-04 14:44:00,2026-12-10,2026-12-10,Cancelled (hospital transfer),0,,,True,
+D00906,F05,R00906,Commercial / other,Assisted living with home health,Home Health,2026-12-07 08:00:00,2026-12-11,2026-12-11,Discharged,0,0,,True,False
+D00907,F05,R00907,Medicare Part A,Home with home health,Home Health,2026-12-09 08:32:00,2026-12-14,2026-12-14,Discharged,0,0,,True,False
+D00908,F05,R00908,Medicare Part A,Home with home health,Home Health,2026-12-08 11:29:00,2026-12-14,2026-12-14,Discharged,0,0,,True,True
+D00909,F05,R00909,Medicare Part A,Home with home health,Home Health,2026-12-14 15:39:00,2026-12-17,2026-12-17,Discharged,0,0,,True,False
+D00910,F05,R00910,Medicare Part A,Home with home health,Home Health,2026-12-14 08:00:00,2026-12-17,2026-12-17,Discharged,0,0,,True,False
+D00911,F05,R00911,Medicare Advantage,Assisted living with home health,Home Health,2026-12-16 15:02:00,2026-12-18,2026-12-18,Discharged,0,0,,True,False
+D00912,F05,R00912,Commercial / other,Home with home health,Home Health,2026-12-17 12:31:00,2026-12-19,2026-12-19,Discharged,0,0,,True,False
+D00913,F05,R00913,Commercial / other,Home with home health,Home Health; DME,2026-12-16 15:34:00,2026-12-22,2026-12-22,Discharged,0,0,,True,False
+D00914,F05,R00914,Medicare Part A,"Home, outpatient dialysis",Dialysis; Home Health,2026-12-21 08:00:00,2026-12-24,2026-12-24,Discharged,0,0,,True,False
+D00915,F05,R00915,Medicare Advantage,Home with DME only,DME,2026-12-21 13:35:00,2026-12-24,2026-12-25,Discharged,1,1,Payer authorization pending,True,False
+D00916,F05,R00916,Medicare Part A,Home with home health,Home Health,2026-12-21 14:12:00,2026-12-27,2026-12-27,Discharged,0,0,,True,False
+D00917,F05,R00917,Medicare Advantage,Assisted living with home health,Home Health,2026-12-22 12:44:00,2026-12-27,2026-12-30,Discharged,2,3,Payer authorization pending,True,False
+D00918,F05,R00918,Medicare Advantage,Home with home health,Home Health; DME,2026-12-28 13:27:00,2026-12-30,2027-01-02,Discharged,1,3,Awaiting partner acceptance,True,False
+D00919,F05,R00919,Medicare Part A,Home with home health,Home Health,2026-12-28 08:00:00,2026-12-31,2027-01-01,Discharged,1,1,Payer authorization pending,True,False
+D00920,F05,R00920,Commercial / other,Home with home health,Home Health,2026-12-31 14:41:00,2027-01-01,2027-01-05,Discharged,1,4,Clinical status change,True,False
+D00921,F05,R00921,Medicare Part A,Home with DME only,DME,2026-12-29 12:22:00,2027-01-01,2027-01-01,Discharged,0,0,,True,False
+D00922,F05,R00922,Medicare Part A,Home with home health,Home Health,2027-01-01 10:37:00,2027-01-02,2027-01-05,Discharged,1,3,Awaiting partner acceptance,True,False
+D00923,F05,R00923,Medicare Part A,Assisted living with home health,Home Health,2026-12-29 10:27:00,2027-01-04,2027-01-04,Discharged,0,0,,True,True
+D00924,F05,R00924,Medicare Part A,Home with home health,Home Health; DME,2026-12-31 13:36:00,2027-01-04,2027-01-05,Discharged,1,1,Awaiting DME delivery,True,False
+D00925,F05,R00925,Medicare Part A,Home with home health,Home Health; DME,2027-01-04 08:00:00,2027-01-06,2027-01-06,Discharged,0,0,,True,False
+D00926,F05,R00926,Medicare Part A,Assisted living with home health,Home Health,2027-01-06 10:53:00,2027-01-11,2027-01-11,Discharged,0,0,,True,True
+D00927,F05,R00927,Medicare Advantage,Home with home health,Home Health,2027-01-07 15:16:00,2027-01-12,2027-01-12,Discharged,0,0,,True,False
+D00928,F05,R00928,Commercial / other,Home with home health,Home Health,2027-01-11 08:00:00,2027-01-12,2027-01-12,Discharged,0,0,,True,False
+D00929,F05,R00929,Medicare Part A,Home with hospice,Hospice,2027-01-08 11:20:00,2027-01-12,2027-01-12,Discharged,0,0,,True,False
+D00930,F05,R00930,Medicare Advantage,Home with DME only,DME,2027-01-11 08:00:00,2027-01-13,2027-01-14,Discharged,1,1,Awaiting DME delivery,True,True
+D00931,F05,R00931,Medicaid,Home with home health,Home Health; DME,2027-01-08 10:46:00,2027-01-13,2027-01-16,Discharged,1,3,Clinical status change,True,False
+D00932,F05,R00932,Medicare Part A,Home with home health,Home Health; DME,2027-01-11 08:00:00,2027-01-14,2027-01-14,Discharged,0,0,,True,False
+D00933,F05,R00933,Medicare Advantage,Home with home health,Home Health,2027-01-11 14:32:00,2027-01-15,2027-01-15,Discharged,0,0,,True,False
+D00934,F05,R00934,Medicare Part A,Home with home health,Home Health,2027-01-11 08:00:00,2027-01-15,2027-01-16,Discharged,1,1,Resident / family not ready,True,False
+D00935,F05,R00935,Medicare Advantage,Transfer to LTACH,LTACH,2027-01-13 14:24:00,2027-01-15,2027-01-20,Discharged,2,5,Awaiting partner acceptance,True,
+D00936,F05,R00936,Medicare Part A,Home with home health,Home Health; DME,2027-01-18 12:58:00,2027-01-20,2027-01-24,Discharged,1,4,Clinical status change,True,False
+D00937,F05,R00937,Medicare Part A,Home with DME only,DME,2027-01-18 14:55:00,2027-01-21,2027-01-21,Cancelled (hospital transfer),0,,,True,
+D00938,F05,R00938,Medicare Part A,Home with home health,Home Health,2027-01-18 08:00:00,2027-01-22,2027-01-22,Discharged,0,0,,True,True
+D00939,F05,R00939,Medicare Part A,Home with home health,Home Health,2027-01-20 12:03:00,2027-01-26,2027-01-27,Discharged,1,1,Resident / family not ready,True,False
+D00940,F05,R00940,Medicare Advantage,Transfer to long-term care,Skilled Nursing,2027-01-20 10:29:00,2027-01-26,2027-01-27,Discharged,1,1,Awaiting partner acceptance,True,
+D00941,F05,R00941,Medicaid,Home with DME only,DME,2027-01-25 08:00:00,2027-01-26,2027-01-27,Discharged,1,1,Awaiting DME delivery,True,False
+D00942,F05,R00942,Medicare Part A,Home with DME only,DME,2027-01-25 08:15:00,2027-01-27,2027-01-27,Discharged,0,0,,True,False
+D00943,F05,R00943,Medicare Part A,Home with DME only,DME,2027-01-22 09:59:00,2027-01-28,2027-01-28,Discharged,0,0,,True,False
+D00944,F05,R00944,Medicare Part A,Home with home health,Home Health; DME,2027-01-28 13:33:00,2027-02-01,2027-02-01,Discharged,0,0,,True,False
+D00945,F05,R00945,Medicare Part A,Home with DME only,DME,2027-01-28 15:29:00,2027-02-01,2027-02-01,Discharged,0,0,,True,False
+D00946,F05,R00946,Medicare Part A,Transfer to LTACH,LTACH,2027-01-29 13:53:00,2027-02-01,2027-02-02,Discharged,1,1,Awaiting partner acceptance,True,
+D00947,F05,R00947,Medicaid,Home with hospice,Hospice; DME,2027-02-01 12:35:00,2027-02-03,2027-02-03,Discharged,0,0,,True,False
+D00948,F05,R00948,Medicaid,Home with home health,Home Health,2027-02-01 08:00:00,2027-02-03,2027-02-04,Discharged,1,1,Awaiting partner acceptance,True,False
+D00949,F05,R00949,Commercial / other,Home with home health,Home Health; DME,2027-02-03 11:23:00,2027-02-05,2027-02-05,Discharged,0,0,,True,False
+D00950,F05,R00950,Medicare Advantage,Transfer to long-term care,Skilled Nursing,2027-02-02 13:56:00,2027-02-07,2027-02-08,Discharged,1,1,Awaiting partner acceptance,True,
+D00951,F05,R00951,Medicare Part A,Home with home health,Home Health; DME,2027-02-08 08:33:00,2027-02-10,2027-02-11,Discharged,1,1,Awaiting DME delivery,True,True
+D00952,F05,R00952,Medicare Advantage,Home with home health,Home Health; DME,2027-02-04 12:52:00,2027-02-10,2027-02-10,Discharged,0,0,,True,False
+D00953,F05,R00953,Medicare Advantage,Home with home health,Home Health,2027-02-15 08:00:00,2027-02-15,2027-02-16,Discharged,1,1,Awaiting partner acceptance,True,False
+D00954,F05,R00954,Medicare Part A,Home with DME only,DME,2027-02-10 14:50:00,2027-02-16,2027-02-16,Discharged,0,0,,True,False
+D00955,F05,R00955,Medicaid,Home with home health,Home Health,2027-02-15 08:00:00,2027-02-16,2027-02-17,Discharged,1,1,Awaiting partner acceptance,True,False
+D00956,F05,R00956,Medicaid,Home with hospice,Hospice,2027-02-12 10:49:00,2027-02-17,2027-02-18,Discharged,1,1,Clinical status change,True,False
+D00957,F05,R00957,Commercial / other,Transfer to long-term care,Skilled Nursing,2027-02-15 08:00:00,2027-02-17,2027-02-17,Cancelled (hospital transfer),0,,,True,
+D00958,F05,R00958,Medicare Advantage,Home with home health,Home Health; DME,2027-02-12 10:39:00,2027-02-18,2027-02-18,Discharged,0,0,,True,False
+D00959,F05,R00959,Medicare Part A,Home with home health,Home Health,2027-02-15 15:52:00,2027-02-18,2027-02-23,Discharged,1,5,Awaiting partner acceptance,True,False
+D00960,F05,R00960,Medicare Part A,Home with home health,Home Health; DME,2027-02-15 11:57:00,2027-02-21,2027-02-21,Discharged,0,0,,True,False
+D00961,F05,R00961,Medicare Advantage,Home with home health,Home Health,2027-02-19 10:39:00,2027-02-22,2027-02-22,Discharged,0,0,,True,False
+D00962,F05,R00962,Medicare Advantage,"Home, outpatient dialysis",Dialysis,2027-02-17 08:50:00,2027-02-23,2027-02-23,Cancelled (hospital transfer),0,,,True,
+D00963,F05,R00963,Medicare Part A,Home with home health,Home Health,2027-02-22 08:00:00,2027-02-23,2027-02-23,Discharged,0,0,,True,True
+D00964,F05,R00964,Medicare Part A,Home with home health,Home Health; DME,2027-02-24 09:32:00,2027-03-01,2027-03-01,Discharged,0,0,,True,False
+D00965,F05,R00965,Medicare Part A,Home with home health,Home Health,2027-02-23 13:33:00,2027-03-01,2027-03-01,Discharged,0,0,,True,False
+D00966,F05,R00966,Medicaid,Home with DME only,DME,2027-03-01 08:00:00,2027-03-02,2027-03-02,Discharged,0,0,,True,False
+D00967,F05,R00967,Medicare Part A,Home with hospice,Hospice,2027-02-25 14:44:00,2027-03-02,2027-03-02,Discharged,0,0,,True,False
+D00968,F05,R00968,Medicare Part A,Home with home health,Home Health; DME,2027-02-26 09:15:00,2027-03-03,2027-03-03,Discharged,0,0,,True,False
+D00969,F05,R00969,Medicaid,Home with home health,Home Health; DME,2027-03-01 12:52:00,2027-03-04,2027-03-14,Discharged,3,10,Awaiting partner acceptance,True,
+D00970,F05,R00970,Medicare Part A,Home with DME only,DME,2027-03-01 08:00:00,2027-03-04,2027-03-04,Discharged,0,0,,True,False
+D00971,F05,R00971,Medicare Advantage,Home with hospice,Hospice; DME,2027-03-02 14:01:00,2027-03-05,2027-03-07,Discharged,2,2,Resident / family not ready,True,False
+D00972,F05,R00972,Medicare Advantage,Home with home health,Home Health; DME,2027-03-02 15:06:00,2027-03-06,2027-03-06,Discharged,0,0,,True,False
+D00973,F05,R00973,Medicare Part A,Home with home health,Home Health,2027-03-04 13:16:00,2027-03-07,2027-03-13,Discharged,1,6,Awaiting partner acceptance,True,
+D00974,F05,R00974,Medicare Part A,Home with home health,Home Health,2027-03-04 12:24:00,2027-03-08,2027-03-10,Discharged,1,2,Awaiting partner acceptance,True,False
+D00975,F05,R00975,Medicaid,Assisted living with home health,Home Health,2027-03-03 15:08:00,2027-03-08,2027-03-08,Discharged,0,0,,True,True
+D00976,F05,R00976,Medicare Part A,Home with home health,Home Health; DME,2027-03-08 08:00:00,2027-03-12,2027-03-13,Discharged,1,1,Awaiting DME delivery,True,
+D00977,F05,R00977,Commercial / other,Home with home health,Home Health,2027-03-09 13:57:00,2027-03-14,2027-03-14,Discharged,0,0,,True,
+D00978,F05,R00978,Medicare Advantage,Home with home health,Home Health; DME,2027-03-15 08:00:00,2027-03-16,2027-03-16,Cancelled (hospital transfer),0,,,True,
+D00979,F05,R00979,Medicare Part A,Assisted living with home health,Home Health,2027-03-11 14:32:00,2027-03-16,2027-03-16,Cancelled (hospital transfer),0,,,True,
+D00980,F05,R00980,Medicare Advantage,"Home, outpatient dialysis",Dialysis,2027-03-11 13:26:00,2027-03-17,2027-03-17,Discharged,0,0,,True,
+D00981,F05,R00981,Medicare Part A,Home with home health,Home Health; DME,2027-03-15 08:00:00,2027-03-18,2027-03-18,Discharged,0,0,,True,
+D00982,F05,R00982,Commercial / other,Transfer to long-term care,Skilled Nursing,2027-03-15 11:54:00,2027-03-19,2027-03-19,Discharged,0,0,,True,
+D00983,F05,R00983,Medicare Advantage,Transfer to long-term care,Skilled Nursing,2027-03-15 15:35:00,2027-03-19,2027-03-21,Discharged,1,2,Resident / family not ready,True,
+D00984,F05,R00984,Medicare Part A,Home with DME only,DME,2027-03-15 08:00:00,2027-03-19,2027-03-19,Discharged,0,0,,True,
+D00985,F05,R00985,Medicare Advantage,"Home, outpatient dialysis",Dialysis; Home Health,2027-03-18 08:32:00,2027-03-22,2027-03-23,Discharged,1,1,Awaiting partner acceptance,True,
+D00986,F05,R00986,Commercial / other,Home with home health,Home Health; DME,2027-03-22 08:00:00,2027-03-23,2027-03-25,Discharged,1,2,Awaiting DME delivery,True,
+D00987,F05,R00987,Medicaid,Home with DME only,DME,2027-03-22 08:00:00,2027-03-23,2027-03-23,Discharged,0,0,,True,
+D00988,F05,R00988,Medicare Part A,Home with hospice,Hospice; DME,2027-03-19 15:10:00,2027-03-23,2027-03-23,Cancelled (hospital transfer),0,,,True,
+D00989,F05,R00989,Medicare Advantage,Home with home health,Home Health; DME,2027-03-24 08:10:00,2027-03-25,2027-03-28,Discharged,1,3,Payer authorization pending,True,
+D00990,F05,R00990,Medicare Part A,"Home, outpatient dialysis",Dialysis,2027-03-22 08:00:00,2027-03-25,2027-03-25,Discharged,0,0,,True,
+D00991,F05,R00991,Medicare Advantage,Home with DME only,DME,2027-03-23 12:32:00,2027-03-26,2027-03-26,Discharged,0,0,,True,
+D00992,F05,R00992,Medicare Part A,Transfer to LTACH,LTACH,2027-03-22 08:00:00,2027-03-26,2027-03-26,Discharged,0,0,,True,
+D00993,F05,R00993,Medicare Advantage,Transfer to long-term care,Skilled Nursing,2027-03-24 10:58:00,2027-03-27,2027-03-27,Discharged,0,0,,True,
+D00994,F05,R00994,Medicare Part A,Home with home health,Home Health; DME,2027-03-29 08:00:00,2027-03-31,2027-04-01,Discharged,1,1,Awaiting DME delivery,True,
+D00995,F05,R00995,Medicaid,Home with home health,Home Health; DME,2027-03-30 14:51:00,2027-04-02,2027-04-02,Discharged,0,0,,True,
+D00996,F05,R00996,Medicaid,Transfer to long-term care,Skilled Nursing,2027-04-01 13:12:00,2027-04-05,2027-04-06,Discharged,1,1,Awaiting partner acceptance,True,
+D00997,F05,R00997,Medicare Advantage,Home with home health,Home Health,2027-04-05 10:02:00,2027-04-06,2027-04-06,Discharged,0,0,,True,
+D00998,F05,R00998,Medicaid,Assisted living with home health,Home Health,2027-04-02 14:25:00,2027-04-07,2027-04-07,Discharged,0,0,,True,
+D00999,F05,R00999,Commercial / other,Home with home health,Home Health; DME,2027-04-05 08:00:00,2027-04-07,2027-04-07,Discharged,0,0,,True,
+D01000,F05,R01000,Medicaid,Home with home health,Home Health; DME,2027-04-05 08:13:00,2027-04-07,2027-04-08,Discharged,1,1,Awaiting partner acceptance,True,
+D01001,F05,R01001,Medicare Part A,"Home, outpatient dialysis",Dialysis,2027-04-05 08:00:00,2027-04-08,2027-04-10,Upcoming,1,2,Resident / family not ready,True,
+D01002,F05,R01002,Medicaid,Home with home health,Home Health,2027-04-06 09:08:00,2027-04-08,2027-04-08,Discharged,0,0,,True,
+D01003,F05,R01003,Medicare Advantage,Home with home health,Home Health,2027-04-05 08:00:00,2027-04-09,2027-04-09,Discharged,0,0,,True,
+D01004,F05,R01004,Medicaid,Home with home health,Home Health,2027-04-05 08:00:00,2027-04-09,2027-04-09,Discharged,0,0,,True,
+D01005,F05,R01005,Medicare Part A,Home with home health,Home Health; DME,2027-04-05 08:00:00,2027-04-09,2027-04-09,Discharged,0,0,,True,
+D01006,F05,R01006,Medicaid,Home with home health,Home Health,2027-04-05 08:00:00,2027-04-10,2027-04-11,Upcoming,1,1,Resident / family not ready,True,
+D01007,F05,R01007,Medicare Part A,Home with home health,Home Health,2027-04-05 08:26:00,2027-04-10,2027-04-10,Upcoming,0,0,,True,
+D01008,F05,R01008,Medicaid,Transfer to LTACH,LTACH,2027-04-07 11:16:00,2027-04-11,2027-04-11,Upcoming,0,0,,True,
+D01009,F05,R01009,Medicaid,Home with home health,Home Health; DME,2027-04-09 13:44:00,2027-04-12,2027-04-13,Upcoming,1,1,No partner accepted,False,
+D01010,F05,R01010,Commercial / other,Home with home health,Home Health; DME,2027-04-07 14:04:00,2027-04-12,2027-04-14,Upcoming,1,2,Awaiting partner acceptance,True,
+D01012,F05,R01012,Medicare Part A,Home with home health,Home Health,2027-04-08 08:41:00,2027-04-14,2027-04-16,Upcoming,1,2,Clinical status change,True,

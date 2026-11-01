@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Outbound Referral Analytics</title>
+<meta name="description" content="Where discharge delays come from in outbound referrals: a one-screen concept dashboard on synthetic data.">
+<style>
+  :root {
+    color-scheme: light;
+    --page: #f9f9f7; --surface: #fcfcfb; --ink: #0b0b0b; --ink-2: #52514e; --muted: #898781;
+    --border: rgba(11, 11, 11, 0.10); --accent: #2a78d6; --de: #c9c7bf;
+    --font: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      color-scheme: dark;
+      --page: #0d0d0d; --surface: #1a1a19; --ink: #f0efec; --ink-2: #c3c2b7; --muted: #898781;
+      --border: rgba(255, 255, 255, 0.10); --accent: #3987e5; --de: #4d4c48;
+    }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--page); color: var(--ink); font: 16px/1.5 var(--font); }
+  .wrap { max-width: 960px; margin: 0 auto; padding: 48px 20px; display: grid; gap: 28px; }
+  h1, h2, p { margin: 0; }
+
+  h1 { font-size: clamp(26px, 4.2vw, 38px); line-height: 1.15; font-weight: 650; letter-spacing: -0.01em; max-width: 28ch; }
+  .sub { margin-top: 10px; font-size: 14px; color: var(--muted); }
+
+  .tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr)); gap: 12px; }
+  .tile { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 18px 20px; }
+  .tile b { display: block; font-size: 40px; line-height: 1.1; font-weight: 650; }
+  .tile span { font-size: 14px; color: var(--ink-2); }
+
+  .charts { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 380px), 1fr)); gap: 12px; }
+  .card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 20px; display: grid; gap: 14px; align-content: start; }
+  .card h2 { font-size: 18px; line-height: 1.3; font-weight: 650; }
+  .card .note { font-size: 13px; color: var(--muted); margin-top: -8px; }
+  .bars { display: grid; gap: 12px; }
+  .row { display: grid; gap: 4px; }
+  .row .label { font-size: 14px; color: var(--ink-2); }
+  .row .track { display: flex; align-items: center; gap: 10px; }
+  .row .bar { flex: none; height: 22px; border-radius: 0 4px 4px 0; min-width: 3px; background: var(--de); }
+  .row.hi .bar { background: var(--accent); }
+  .row .val { font-size: 15px; font-weight: 600; white-space: nowrap; }
+  .row:not(.hi) .val { font-weight: 400; color: var(--ink-2); }
+
+  .fix { font-size: 16px; padding: 14px 18px; border-left: 3px solid var(--accent); background: var(--surface); border-radius: 0 12px 12px 0; }
+  .fix strong { font-weight: 650; }
+
+  footer { font-size: 12.5px; color: var(--muted); display: grid; gap: 4px; }
+  footer a { color: var(--accent); }
+</style>
+</head>
+<body>
+<main class="wrap">
+  <header>
+    <h1>Most discharge delays were spent waiting on a partner's reply</h1>
+    <p class="sub" id="sub"></p>
+  </header>
+
+  <section class="tiles" aria-label="Headline figures">
+    <div class="tile"><b id="t-days"></b><span>bed-days lost to moved discharge dates</span></div>
+    <div class="tile"><b id="t-share"></b><span>of those days spent waiting on a partner</span></div>
+    <div class="tile"><b id="t-wait"></b><span>median wait for a partner's first reply</span></div>
+  </section>
+
+  <section class="charts">
+    <div class="card">
+      <h2 id="c1-title"></h2>
+      <p class="note">Median hours to a partner's first reply, by when the referral was sent</p>
+      <div class="bars" id="c1" role="list"></div>
+    </div>
+    <div class="card">
+      <h2 id="c2-title"></h2>
+      <p class="note">Median hours to a partner's first reply, by how the partner receives referrals</p>
+      <div class="bars" id="c2" role="list"></div>
+    </div>
+  </section>
+
+  <p class="fix"><strong>What would help:</strong> send referrals before Friday noon, and bring the busiest email-link partners onto the platform.</p>
+
+  <footer>
+    <p>Synthetic data: the operator, buildings and partners are invented. Partners on the platform may reply faster partly because responsive partners adopt new tools first.</p>
+    <p id="repo" hidden><a href="#">Method, SQL and data on GitHub</a></p>
+    <p>Independent concept by Hanna Maliarchuk, inspired by exacare ai's Discharge Coordination launch. Not affiliated with exacare ai.</p>
+  </footer>
+</main>
+
+<script src="data.js"></script>
+<script>
+(() => {
+  const D = window.DASH;
+  const h = (v) => Math.round(v);                    // whole hours read fastest
+  const $ = (id) => document.getElementById(id);
+
+  $('sub').textContent = `Outbound referrals at a fictional ${D.buildings}-building nursing-home operator · first ${D.weeks} weeks · synthetic data`;
+  $('t-days').textContent = D.bed_days.toLocaleString('en-US');
+  $('t-share').textContent = Math.round(D.partner_share * 100) + '%';
+  $('t-wait').textContent = h(D.median_hours) + ' h';
+
+  function bars(id, rows, highlight) {
+    const max = Math.max(...rows.map((r) => r.hours));
+    $(id).innerHTML = rows.map((r) => `
+      <div class="row${r.label === highlight ? ' hi' : ''}" role="listitem" aria-label="${r.label}: ${h(r.hours)} hours">
+        <span class="label">${r.label}</span>
+        <div class="track"><div class="bar" style="width: calc((100% - 4rem) * ${r.hours / max})"></div><span class="val">${h(r.hours)} h</span></div>
+      </div>`).join('');
+  }
+
+  const fri = D.by_window.find((r) => r.label === 'Friday, afternoon');
+  $('c1-title').textContent = `Sent on a Friday afternoon, a referral waits ${h(fri.hours)} hours for a reply`;
+  bars('c1', D.by_window, 'Friday, afternoon');
+
+  const [on, off] = D.by_channel;
+  $('c2-title').textContent = `Partners on exacare reply in ${h(on.hours)} hours, not ${h(off.hours)}`;
+  bars('c2', D.by_channel, 'On exacare');
+
+  const m = location.hostname.match(/^([^.]+)\.github\.io$/);
+  if (m) {
+    $('repo').querySelector('a').href = `https://github.com/${m[1]}/${location.pathname.split('/').filter(Boolean)[0] || ''}`;
+    $('repo').hidden = false;
+  }
+})();
+</script>
+</body>
+</html>
